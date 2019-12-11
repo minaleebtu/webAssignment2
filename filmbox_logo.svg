@@ -1,0 +1,38 @@
+<svg version="1.1" height="143" width="170"	xmlns="http://www.w3.org/2000/svg">
+
+/* top */
+/* x+50 y+20*/
+<line x1="20" y1="40" x2="70" y2="70" style="stroke:black;stroke-width:3;" />
+<line x1="75" y1="70" x2="125" y2="40" style="stroke:black;stroke-width:3;" />
+
+<line x1="20" y1="35" x2="70" y2="5" style="stroke:black;stroke-width:3;" />
+<line x1="75" y1="5" x2="125" y2="35" style="stroke:black;stroke-width:3;" />
+
+/* vertical lines */
+/* y+50 */
+<line x1="20" y1="45" x2="20" y2="95" style="stroke:black;stroke-width:3;" />
+<line x1="72.5" y1="75" x2="72.5" y2="125" style="stroke:black;stroke-width:3;" />
+<line x1="125" y1="45" x2="125" y2="95" style="stroke:black;stroke-width:3;" />
+
+/* bottom */
+
+<line x1="20" y1="100" x2="70" y2="130" style="stroke:black;stroke-width:3;" />
+<line x1="75" y1="130" x2="125" y2="100" style="stroke:black;stroke-width:3;" />
+
+/* F */
+<path stroke-width="5" fill="none" stroke="black"
+  d="M62 82 L32 62 L32 97" />
+<line x1="32" y1="77" x2="58" y2="94" style="stroke:black;stroke-width:5;" />
+
+
+
+/* cup */
+<path stroke-width="3" fill="none" stroke="black" d="M125 85 L140 85 L143 15 L97 15 L97 17" />
+
+
+/* straw */
+
+<line x1="135" y1="15" x2="135" y2="5" style="stroke:black;stroke-width:3;" />
+<line x1="115" y1="5" x2="135" y2="5" style="stroke:black;stroke-width:3;" />
+
+</svg>
