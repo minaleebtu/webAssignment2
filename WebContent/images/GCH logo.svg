@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 -0.5 147 87" width="147" height="87" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" content="&lt;mxfile version=&quot;12.4.1&quot; host=&quot;www.draw.io&quot; modified=&quot;2019-12-12T21:51:04.812Z&quot; agent=&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763&quot; etag=&quot;TQL7z8Fz49n6yQXe6j8l&quot; pages=&quot;1&quot;&gt;&lt;diagram id=&quot;nLIujf_0elxSzJ_4q5Wm&quot; name=&quot;Page-1&quot;&gt;jZNdb4IwFIZ/DZcm8hHUS2FOk7nMZFmWXXb0WBpLD5aiuF+/FoqIZskuSHqe892+eGFaNGtFyvwVKQgvmDLFqRc+eUHgm88A2jgzsmZLLh1Z+A7YnHf+Ay5w6mjNKVSjWhpRaF6OYYZSQqZHjCiF53HYHsV4sJIweADvGRGP9JNTnXd0HswGvgHO8r6zHy86T0H6YLdJlROK55uq4coLU4Wou1PRpCDs5fVX1+U9/+G9DqZA6v8kFG/b6iUq5cdytlt9Zf72uN1N3N2fiKjdwl4QC1Mv2aMpay6MZJ0jPtZ20mQNqBgnA7Cr6YsYR9nsSdW+5tIERNOyuc2IWVsq3fTdzNhdw87zuJtbd+gUaGhsaKUVHiBFgcpwiRJsey7EHcp1IYzlu+Gc0oKot13h0NgnUJobCSwFZ9KwglNqnQlxIDNjgamdCPINIiHZgSmsJb1rWZUk45LZNtedbG1o7lVgfh/AArS6WNk6ybIrson5jcrmTlLnQZF+NHp9c3AC6M1BaK3v5ncNV78=&lt;/diagram&gt;&lt;/mxfile&gt;">
+<defs>
+<filter id="dropShadow"><feGaussianBlur result="blur" in="SourceAlpha" stdDeviation="1.7"/>
+<feOffset result="offsetBlur" in="blur" dx="3" dy="3"/>
+<feFlood flood-color="rgb(61, 69, 116)" flood-opacity="0.4" result="offsetColor"/>
+<feComposite result="offsetBlur" in="offsetColor" in2="offsetBlur" operator="in"/>
+<feBlend in="SourceGraphic" in2="offsetBlur"/></filter></defs>
+<g filter="url(#dropShadow)"><rect fill="none" pointer-events="all" stroke="none" x="0" y="0" width="140" height="80"/>
+<g transform="translate(21.5 16.5)"><switch>
+<foreignObject style="overflow:visible;" pointer-events="all" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" width="97" height="46">
+<div xmlns="http://www.w3.org/1999/xhtml" style="text-align: center; color: rgb(0, 0, 0); line-height: 1.2; font-family: Helvetica; font-size: 24px; font-style: italic; font-weight: bold; vertical-align: top; display: inline-block; white-space: nowrap;">
+<div style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+<font face="Georgia" style="font-size: 40px">GCH</font></div></div></foreignObject>
+<text font-family="Helvetica" font-size="24px" font-style="italic" font-weight="bold" fill="#000000" text-anchor="middle" x="49" y="35">[Not supported by viewer]</text></switch></g></g>
+</svg>
