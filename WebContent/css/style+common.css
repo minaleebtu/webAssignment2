@@ -11,7 +11,7 @@ html {
 }
 
 header {
-	background-image: url("images/doctor_edited.png");
+	background-image: url("../images/doctor_edited.png");
 	background-position: left;
 	background-attachment: scroll;
 	background-repeat: no-repeat;
