@@ -16,8 +16,7 @@ header {
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	border-top: 10px solid #0B0B61;
-	border-bottom: 10px solid #0B0B61;
-	text-align: center;
+	/* 	border-bottom: 10px solid #0B0B61; */
 	margin: 0 auto;
 	padding-top: 5px;
 	width: 100%;
@@ -25,7 +24,6 @@ header {
 	background-color: #A9E2F3;
 	text-align: right;
 	font-size: 25px;
-	width: 100%;
 }
 
 header h3, h4 {
@@ -62,7 +60,7 @@ header h3, h4 {
 	font-weight: bold;
 	text-decoration: none;
 	display: block;
-	width: 140px;
+	width: 130px;
 }
 
 .menubar nav li a:hover {
