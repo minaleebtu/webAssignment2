@@ -1,6 +1,13 @@
+* {
+	overflow: visible;
+}
+
+.container {
+	padding-bottom: 5%;
+}
+
 .historyTitle {
 	text-align: center;
-	margin: 10 auto;
 	background-color: #D8D8D8;
 }
 
@@ -9,18 +16,31 @@
 	margin: 0 auto;
 }
 
-.aboutus p {
-	/* 	text-align: center; */
-	/* 	margin: 10 auto; */
-	
-}
-
 .history {
-	/* 	margin: 10 auto; */
 	border: 1px solid;
-	overflow: visible;
 }
 
 ul.historyList {
-	list-style-type: square;
+	list-style: none;
+	list-style-image: url("../images/hospital_list_icon.png");
+}
+
+ul.historyList>li:FIRST-CHILD {
+	padding-top: 0;
+}
+
+ul.historyList li {
+	padding-left: 10px;
+	padding-top: 1em;
+}
+
+.videoContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 3%;
+}
+
+video {
+	width: 40%;
 }
