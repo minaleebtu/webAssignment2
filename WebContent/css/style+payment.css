@@ -3,27 +3,27 @@
   width: 99%;
   height: 80%;
   text-align: center;
-  background-color: #A9E2F3;
+  background-color: white;
 }
 
 
 .description{
   text-align: justify;
   margin-top: 3%;
-  margin-left: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
   padding-left: 2%;
   padding-right: 2%;
   margin-bottom: 12%;
   float: center;
   width: 80%;
-  background-color: white;
+  background-color: #A9E2F3;
   border: 3px solid #0B0B61;
   border-radius: 5px;
 }
 
 
 .exempted{
-  list-style-type: none;
   overflow: hidden;
   margin: 0;
   padding: 1 1 1 1;
@@ -31,7 +31,9 @@
 
 .payoption {
   overflow: auto;
-  background-color: #fff;
+  background-color: inherit;
+  text-align: center;
+  margin-bottom: 2%;
 }
 
 .visa, .mastercard, .AE, .discover, .cash{
