@@ -8,21 +8,19 @@
 
 
 .description{
-  text-align: center;
+  text-align: justify;
   margin-top: 3%;
   margin-left: 3%;
   padding-left: 2%;
   padding-right: 2%;
   margin-bottom: 12%;
   float: center;
-  width: 45%;
+  width: 80%;
   background-color: white;
+  border: 3px solid #0B0B61;
+  border-radius: 5px;
 }
 
-#pay1{
-  border: 3px solid #0B0B61;
-  border-radius: 2px;
-}
 
 .exempted{
   list-style-type: none;
@@ -44,25 +42,25 @@
 }
 
 .visa{
-  background-image: url("./visa.svg");
+  background-image: url("../images/visa.svg");
   background-repeat: no-repeat;
 }
 .mastercard{
-  background-image: url("./master-card-logo.svg");
+  background-image: url("../images/master-card-logo.svg");
   background-repeat: no-repeat;
 }
 
 .AE{
-  background-image: url("./american-express-logo.svg");
+  background-image: url("../images/american-express-logo.svg");
   background-repeat: no-repeat;
 }
 
 .discover{
-  background-image: url("./discover-logo-of-pay-system.svg");
+  background-image: url("../images/discover-logo-of-pay-system.svg");
   background-repeat: no-repeat;
 }
 
 .cash{
-  background-image: url("./euro.svg");
+  background-image: url("../images/euro.svg");
   background-repeat: no-repeat;
 }
