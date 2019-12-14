@@ -2,6 +2,12 @@
 	overflow: visible;
 }
 
+@media only screen and (max-width: 1203px) {
+	.container {
+		padding-bottom: 5%;
+	}
+}
+
 .contactTitle {
 	text-align: center;
 	background-color: #D8D8D8;
@@ -20,22 +26,22 @@
 .contactContainer>div {
 	padding-top: 3%;
 	display: block;
-	/* 	margin: 20px; */
 	width: 60%;
 	text-align: center;
-/* 	border: solid 1px; */
 }
 
 .phone p {
 	padding-top: 1.5em;
 }
 
-.email p {
-/* 	padding-top: 1em; */
+.phone>p>a {
+	text-decoration: none;
+	color: #0B0B61;
 }
 
 .email>p>a {
-	text-decoration: none;
+	/* 	text-decoration: none; */
+	color: #0B0B61;
 }
 
 .linkButton>div {
