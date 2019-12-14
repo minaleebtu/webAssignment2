@@ -1,0 +1,68 @@
+.container {
+  position: fixed;
+  width: 99%;
+  height: 80%;
+  text-align: center;
+  background-color: #A9E2F3;
+}
+
+
+.description{
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-bottom: 12%;
+  float: center;
+  width: 45%;
+  background-color: white;
+}
+
+#pay1{
+  border: 3px solid #0B0B61;
+  border-radius: 2px;
+}
+
+.exempted{
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 1 1 1 1;
+}
+
+.payoption {
+  overflow: auto;
+  background-color: #fff;
+}
+
+.visa, .mastercard, .AE, .discover, .cash{
+  text-align: center;
+  display: inline-block;
+  height: 33px;
+  width: 50px;
+}
+
+.visa{
+  background-image: url("./visa.svg");
+  background-repeat: no-repeat;
+}
+.mastercard{
+  background-image: url("./master-card-logo.svg");
+  background-repeat: no-repeat;
+}
+
+.AE{
+  background-image: url("./american-express-logo.svg");
+  background-repeat: no-repeat;
+}
+
+.discover{
+  background-image: url("./discover-logo-of-pay-system.svg");
+  background-repeat: no-repeat;
+}
+
+.cash{
+  background-image: url("./euro.svg");
+  background-repeat: no-repeat;
+}
