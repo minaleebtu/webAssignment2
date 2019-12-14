@@ -2,14 +2,15 @@
 <html>
   <head>
     <title> FAQ | Grand Cottbus Hospital</title>
-    <link rel="stylesheet" href="./style+startsite.css">
-    <link rel="stylesheet" href="./style+service.css">
-    <link rel="stylesheet" href="./style+faq.css">
+    <link rel="stylesheet" href="/css/style+common.css">
+    <link rel="stylesheet" href="/css/style+service.css">
+    <link rel="stylesheet" href="/css/style+faq.css">
+    <script src="/js/js+faq.js"></script>
   </head>
   <body>
     <header>
       <picture>
-        <img src="./filmbox_logo.svg" id="logo"alt="GCH" height="150" width="170" />
+        <img src="../images/GCH logo.svg" id="logo"alt="GCH" height="150" width="170" />
       </picture>
       <br><p id="welcome">Grand Cottbus Hospital - The best doctors are waiting for you</p>
       <div id="cookieConsent">
@@ -21,10 +22,10 @@
       <ul class="nav_ul">
         <li><a href="./index.html">Home</a></li>
         <li><a href="./service.html">Our Services</a></li>
-        <li><a href="./forpatients.html">For patients</a></li>
+        <li><a href="./forPatients.html">For patients</a></li>
         <li><a href="./donation.html">Donation</a></li>
-        <li><a href="./newappointment.html">Make an Appointment</a></li>
-        <li><a href="./find+a+doctor.html">Find a doctor</a></li>
+        <li><a href="./newAppointment.html">Make an Appointment</a></li>
+        <li><a href="./findDoctor.html">Find a doctor</a></li>
         <li><a href="./career.html">Career</a></li>
         <li><a href="./contactus.html">Contact Us</a></li>
         <li><a href="./faq.html">FAQ</a></li>
@@ -32,428 +33,181 @@
     </nav>
 
     <section class="container">
-      <div class="row">
-        <div class="panel-group" id="accordion-2790" role="tablist" aria-multiselectable="true">
+      <div class="faqcontainer">
+        <h3>Appointment and Treatment Inquiry</h3>
 
-  				<div class="panel panel-default">
-  					<div class="panel-heading" role="tab">
-  						<h4 class="panel-title">
-  							<a data-toggle="collapse" data-parent="#accordion-2790" href="service-information/faq/#accordion-2790-3">
-  								How can I make an appointment?
-  							</a>
-  						</h4>
-  					</div>
-  					<div id="accordion-2790-3"
-  						 class="panel-collapse collapse" role="tabpanel">
-  						<div class="panel-body">
-  							<p>In order to make an appointment, please use our <a href="treatment-inquiry-appointment/q-form/">appointment form.</a> You can submit the document via email. On the basis of the information received our physicians will be able to provide you with a good-quality treatment offer. If you wrote wrong information and already sent it, please print and give the corrected document to us when you visit our hospital. Also, be aware of the cases that our physicians additionally need some <a href="treatment-inquiry-appointment/">medical documents</a>.</p>
+     <div class="panelbox">
+      <div class="panel panel-default">
+        <div onclick="showOnClick('q1_1')" class="panel-title">How can I make an appointment?</div>
+        <div class="panel-body" id="q1_1">
+          <p>In order to make an appointment, please use our <a href="treatment-inquiry-appointment/q-form/">appointment form.</a> You can submit the document via email. On the basis of the information received our physicians will be able to provide you with a good-quality treatment offer. If you wrote wrong information and already sent it, please print and give the corrected document to us when you visit our hospital. Also, be aware of the cases that our physicians additionally need some <a href="treatment-inquiry-appointment/">medical documents</a>.</p>
   						</div>
-  					</div>
-  				</div>
-
+            </div>
   				<div class="panel panel-default">
-  					<div class="panel-heading" role="tab">
-  						<h4 class="panel-title">
-  							<a data-toggle="collapse" data-parent="#accordion-2790" href="service-information/faq/#accordion-2790-4">
-  								Which medical documents are required?
-  							</a>
-  						</h4>
-  					</div>
-  					<div id="accordion-2790-4"
-  						 class="panel-collapse collapse" role="tabpanel">
-  						<div class="panel-body">
+  					<div onclick="showOnClick('q1_2')" class="panel-title">Which medical documents are required?</div>
+  					<div class="panel-body" id="q1_2">
   							<p>Please find the required documents for your treatment inquiry <a href="treatment-inquiry-appointment/">here</a>. Please note that the required documents may vary depending on your disease. </p>
-  						</div>
   					</div>
   				</div>
 
   				<div class="panel panel-default">
-  					<div class="panel-heading" role="tab">
-  						<h4 class="panel-title">
-  							<a data-toggle="collapse" data-parent="#accordion-2790" href="service-information/faq/#accordion-2790-5">
-  								What should I take into account when sending my medical documents? Will my documents be returned to me?
-  							</a>
-  						</h4>
-  					</div>
-  					<div id="accordion-2790-5"
-  						 class="panel-collapse collapse" role="tabpanel">
-  						<div class="panel-body">
-  							<p>You will find notes on the required documents <a href="treatment-inquiry-appointment/">here</a>. Medical documents in common formats (e.g. pdf, jpeg, word) can be attached to the <a href="treatment-inquiry-appointment/q-form/">form</a>&nbsp;(in the upload area); for DICOM image data, for example MRI or CT images, we have a DICOM upload portal (Telemedicine Portal) available – you can upload image data either immediately after sending the form or later using the upload-link we will provide to your e-mail address. When you use these upload options we will have immediate access to your data and can process your inquiry as fast as possible (no mailing delays).
-</p>
-  <p>Alternatively, you can send a CD/DVD (images in DICOM format) by mail to:&nbsp;
-</p>
-  <p>Unfortunately, we are unable to guarantee that your documents will be returned to you and therefore ask you to provide us with copies only and not original documents.</p>
+  					<div onclick="showOnClick('q1_3')" class="panel-title">What should I take into account when sending my medical documents? Will my documents be returned to me?	</div>
+						<div class="panel-body" id="q1_3">
+  							<p>You will find notes on the required documents <a href="treatment-inquiry-appointment/">here</a>. Medical documents in common formats (e.g. pdf, jpeg, word) can be attached to the <a href="treatment-inquiry-appointment/q-form/">form</a>&nbsp;(in the upload area); for DICOM image data, for example MRI or CT images, we have a DICOM upload portal (Telemedicine Portal) available – you can upload image data either immediately after sending the form or later using the upload-link we will provide to your e-mail address. When you use these upload options we will have immediate access to your data and can process your inquiry as fast as possible (no mailing delays).</p>
+                <p>Alternatively, you can send a CD/DVD (images in DICOM format) by mail to:&nbsp;</p>
+                <p>Unfortunately, we are unable to guarantee that your documents will be returned to you and therefore ask you to provide us with copies only and not original documents.</p>
   						</div>
   					</div>
-  				</div>
 
   				<div class="panel panel-default">
-  					<div class="panel-heading" role="tab">
-  						<h4 class="panel-title">
-  							<a data-toggle="collapse" data-parent="#accordion-2790" href="service-information/faq/#accordion-2790-7">
-  								I completed the form but was unable to send it. What should I do?
-  							</a>
-  						</h4>
-  					</div>
-  					<div id="accordion-2790-7"
-  						 class="panel-collapse collapse" role="tabpanel">
-  						<div class="panel-body">
-  							<p>First of all, you should be noticed that you may not be able to meet a doctor or get a treatment when you want without sending document. You may wait for a long time. When you visit our hospital without making an appointment, you should write a form but it would take a time. We always recommend to fill the document before you come in. <br>If you feel hard to use the web site, you can also call us to meet the doctor. But please understand that we need time to get your call because we are getting many call. If you have further questions, <a href="javascript:linkTo_UnCryptMailto('kygjrm8glrcplyrgmlyj,mddgacYkcb,slg+fcgbcjzcpe,bc');">email</a> &nbsp;to us.&nbsp;
-</p>
+  					<div onclick="showOnClick('q1_4')" class="panel-title">I completed the form but was unable to send it. What should I do?</div>
+  				   <div class="panel-body" id="q1_4">
+  						<p>First of all, you should be noticed that you may not be able to meet a doctor or get a treatment when you want without sending document. You may wait for a long time. When you visit our hospital without making an appointment, you should write a form but it would take a time. We always recommend to fill the document before you come in. <br>If you feel hard to use the web site, you can also call us to meet the doctor. But please understand that we need time to get your call because we are getting many call. If you have further questions, <a href="javascript:linkTo_UnCryptMailto('kygjrm8glrcplyrgmlyj,mddgacYkcb,slg+fcgbcjzcpe,bc');">email</a> &nbsp;to us.&nbsp;</p>
   						</div>
   					</div>
-  				</div>
+
+            <div class="panel panel-default">
+              <div onclick="showOnClick('q1_5')" class="panel-title">Do I need to contact for every appointment?    </div>
+              <div class="panel-body" id="q1_5">
+                  <p>The staff will make the first appointments for all medical departments of Grand Cottbus Hospital for you. During ongoing treatment, please talk to your contact in the department about any appointments directly, as far as they are regarding the treatment performed. Should you wish any further treatments or consultations with other departments, please contact to <a href="javascript:linkTo_UnCryptMailto('kygjrm8glrcplyrgmlyj,mddgacYkcb,slg+fcgbcjzcpe,bc');">our hospital.</a>.</p>
+                </div>
+              </div>
+
+            <div class="panel panel-default">
+              <div onclick="showOnClick('q1_6')" class="panel-title">How soon can I make an appointment after payment was made?</div>
+              <div class="panel-body" id="q1_6">
+                  <p>As soon as your payment is credited to the Grand Cottbus Hospital account, we will communicate your appointment to you. As a matter of principle, you will be offered the soonest possible appointment or your preferred date, if possible. The soonest available appointment is usually about 1 - 8 weeks following payment receipt; in rare cases, a time period of more than 8 weeks may elapse between payment receipt and the soonest available appointment. </p>
+                </div>
+              </div>
+
 
   				<div class="panel panel-default">
-  					<div class="panel-heading" role="tab">
-  						<h4 class="panel-title">
-  							<a data-toggle="collapse" data-parent="#accordion-2790" href="service-information/faq/#accordion-2790-8">
-  								How long will it take to process a treatment inquiry and which response will I receive?
-  							</a>
-  						</h4>
-  					</div>
-  					<div id="accordion-2790-8"
-  						 class="panel-collapse collapse" role="tabpanel">
-  						<div class="panel-body">
-  							<p>From the date on which the international Office receives all required information and documents, it will take approx. one week to process your treatment inquiry. Upon viewing the medical documents by the competent medical department, you will receive a tentative therapy offer including a cost estimate. In some cases, we are unable to provide you with a treatment offer, for instance if the required department has no capacities or if the physicians do not consider a therapy in Heidelberg to be reasonable&nbsp;</p>
-  						</div>
+  					<div class="panel-title">How long will it take to process a treatment inquiry and which response will I receive?</div>
+            <div class="panel-body" id="q1_7">
+  							<p>From the date on which our office receives all required information and documents, it will take approx. one week to process your treatment inquiry. Upon viewing the medical documents by the competent medical department, you will receive a tentative therapy offer including a cost estimate. In some cases, we are unable to provide you with a treatment offer, for instance if the required department has no capacities or if the physicians do not consider a therapy in Cottbus to be reasonable&nbsp;</p>
   					</div>
   				</div>
+        </div>
+      </div>
 
-  				<div class="panel panel-default">
-  					<div class="panel-heading" role="tab">
-  						<h4 class="panel-title">
-  							<a data-toggle="collapse" data-parent="#accordion-2790" href="service-information/faq/#accordion-2790-10">
-  								I am a medical emergency and would like to be admitted immediately. Is this possible?
-  							</a>
-  						</h4>
-  					</div>
-  					<div id="accordion-2790-10"
-  						 class="panel-collapse collapse" role="tabpanel">
-  						<div class="panel-body">
-  							<p>In the case of medical emergency requiring immediate hospital treatment, please visit the hospital closest to your home first. Following an examination by a physician and preparation of a medical report, you may send it to us; we will forward all inquiries promptly, and our physicians will decide upon the urgency of a treatment and appointment. </p>
-  						</div>
-  					</div>
-  				</div>
-
-  				<div class="panel panel-default">
-  					<div class="panel-heading" role="tab">
-  						<h4 class="panel-title">
-  							<a data-toggle="collapse" data-parent="#accordion-2790" href="service-information/faq/#accordion-2790-11">
-  								Do I need to contact for every appointment?
-  							</a>
-  						</h4>
-  					</div>
-  					<div id="accordion-2790-11"
-  						 class="panel-collapse collapse" role="tabpanel">
-  						<div class="panel-body">
-  							<p>The staff will make the first appointments for all medical departments of Grand Cottbus Hospital for you. During ongoing treatment, please talk to your contact in the department about any appointments directly, as far as they are regarding the treatment performed. Should you wish any further treatments or consultations with other departments, please contact to <a href="javascript:linkTo_UnCryptMailto('kygjrm8glrcplyrgmlyj,mddgacYkcb,slg+fcgbcjzcpe,bc');">our hospital.</a>.</p>
-  						</div>
-  					</div>
-  				</div>
-
-  				<div class="panel panel-default">
-  					<div class="panel-heading" role="tab">
-  						<h4 class="panel-title">
-  							<a data-toggle="collapse" data-parent="#accordion-2790" href="service-information/faq/#accordion-2790-12">
-  								How soon can I make an appointment after payment was made?
-  							</a>
-  						</h4>
-  					</div>
-  					<div id="accordion-2790-12"
-  						 class="panel-collapse collapse" role="tabpanel">
-  						<div class="panel-body">
-  							<p>As soon as your payment is credited to the Grand Cottbus Hospital account, we will communicate your appointment to you. As a matter of principle, you will be offered the soonest possible appointment or your preferred date, if possible. The soonest available appointment is usually about 1 - 8 weeks following payment receipt; in rare cases, a time period of more than 8 weeks may elapse between payment receipt and the soonest available appointment. </p>
-  						</div>
-  					</div>
-  				</div>
-
-  		</div>
-    </div>
-	<!--  CONTENT ELEMENT, uid:2790/io_template_accordion [end] -->
-
-	<!--  CONTENT ELEMENT, uid:2793/io_template_accordion [begin] -->
-		<div id="c2793"><a id="c2793" class="anchor"></a>
-		<!--  Header: [begin] -->
+		<div class="faqcontainer">
 			<h3>Insurances and embassies as funding agencies</h3>
-		<!--  Header: [end] -->
-
-		<div class="panel-group" id="accordion-2793" role="tablist" aria-multiselectable="true">
-
+      <div class="panelbox">
 				<div class="panel panel-default">
-					<div class="panel-heading" role="tab">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-2793" href="service-information/faq/#accordion-2793-23">
-								How should I proceed if I am insured via the EU Convention on Social Security?
-							</a>
-						</h4>
-					</div>
-					<div id="accordion-2793-23"
-						 class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
-							<p>You will find information and the key steps <a href="finance/">here</a> </p>
+					<div onclick="showOnClick('q2_1')" class="panel-title">How should I proceed if I am insured via the EU Convention on Social Security?</div>
+						<div class="panel-body" id="q2_1">
+							<p>You will find information and the key steps <a href="../forPatients.html">here</a> </p>
 						</div>
 					</div>
-				</div>
 
 				<div class="panel panel-default">
-					<div class="panel-heading" role="tab">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-2793" href="service-information/faq/#accordion-2793-25">
-								My embassy / insurance will cover the costs of my treatment – when and why do I still need to make a prepayment?
-							</a>
-						</h4>
-					</div>
-					<div id="accordion-2793-25"
-						 class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
+					<div onclick="showOnClick('q2_2')" class="panel-title">My embassy / insurance will cover the costs of my treatment – when and why do I still need to make a prepayment?</div>
+						<div class="panel-body" id="q2_2">
 							<p>The treatment guarantee submitted to us is respectively limited to a time period and to a specific treatment. Should the submitted treatment guarantee not cover</p><ul><li>the treatment period or</li><li>the planned treatment which is not associated with the primary treatment or</li><li>the costs for the travelling companion</li></ul><p>you will be requested to prepay the planned extension of the treatment / admission of a travelling companion or to submit an extended treatment guarantee; please understand that the costs must be guaranteed in good time prior to your appointment.</p>
 						</div>
 					</div>
-				</div>
 
 				<div class="panel panel-default">
-					<div class="panel-heading" role="tab">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-2793" href="service-information/faq/#accordion-2793-26">
-								I made a prepayment but have meanwhile received a treatment guarantee from my embassy / insurance carrier. When will my prepayment be refunded?
-							</a>
-						</h4>
-					</div>
-					<div id="accordion-2793-26"
-						 class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
+					<div onclick="showOnClick('q2_3')" class="panel-title">I made a prepayment but have meanwhile received a treatment guarantee from my embassy / insurance carrier. When will my prepayment be refunded?</div>
+						<div class="panel-body" id="q2_3">
 							<p>As soon as the embassy / insurance carrier submits a valid treatment guarantee to the International Office, we will review whether we will be able to refund your prepayment immediately. </p>
 						</div>
 					</div>
-				</div>
 
 				<div class="panel panel-default">
-					<div class="panel-heading" role="tab">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-2793" href="service-information/faq/#accordion-2793-339">
-								Refund in case of initial payments from third party accounts.
-							</a>
-						</h4>
-					</div>
-					<div id="accordion-2793-339"
-						 class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
-							<p>For some countries, international outgoing financial transactions are not possible (e.g. due to political situation). For this reason, some patients transfer the requested prepayments though third party accounts. In this case, please note that this is on personal own risk and a proof of the ownership (e.g. receipt) should be kept.
-</p>
-<p>As a rule, refunds can only be transferred to the account the payment was made. A refund to a different account (e.g. your own / consulate) is only possible from our side after receipt of a proper proof of ownership of the transferred money (e.g. receipt, transfer confirmation, written declaration/power of attorney from the third party etc.).</p>
+					<div onclick="showOnClick('q2_4')" class="panel-title">Refund in case of initial payments from third party accounts.</div>
+	        <div class="panel-body" id="q2_4">
+							<p>For some countries, international outgoing financial transactions are not possible (e.g. due to political situation). For this reason, some patients transfer the requested prepayments though third party accounts. In this case, please note that this is on personal own risk and a proof of the ownership (e.g. receipt) should be kept.</p>
+              <p>As a rule, refunds can only be transferred to the account the payment was made. A refund to a different account (e.g. your own / consulate) is only possible from our side after receipt of a proper proof of ownership of the transferred money (e.g. receipt, transfer confirmation, written declaration/power of attorney from the third party etc.).</p>
 						</div>
 					</div>
-				</div>
-
+        </div>
 		</div>
 
 
-</div>
-	<!--  CONTENT ELEMENT, uid:2793/io_template_accordion [end] -->
-
-	<!--  CONTENT ELEMENT, uid:2794/io_template_accordion [begin] -->
-		<div id="c2794"><a id="c2794" class="anchor"></a>
-		<!--  Header: [begin] -->
-			<h3>Visa and preparations at home</h3>
-		<!--  Header: [end] -->
-
-		<div class="panel-group" id="accordion-2794" role="tablist" aria-multiselectable="true">
-
-				<div class="panel panel-default">
-					<div class="panel-heading" role="tab">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-2794" href="service-information/faq/#accordion-2794-27">
-								Do you provide visa support (“invitation”) and which requirements apply?
-							</a>
-						</h4>
-					</div>
-					<div id="accordion-2794-27"
-						 class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
+		<div class="faqcontainer">
+	     <h3>Visa and preparations at home</h3>
+       <div class="panelbox">
+		<div class="panel panel-default">
+					<div onclick="showOnClick('q3_1')" class="panel-title">Do you provide visa support (“invitation”) and which requirements apply?</div>
+          <div class="panel-body" id="q3_1">
 							<p>We will be happy to support you in obtaining a visa. The requirements are that the costs have been guaranteed (cost estimate was paid or treatment guarantee was submitted by an accepted funding agency) and the appointment has been confirmed by the patient. </p>
 						</div>
 					</div>
-				</div>
 
 				<div class="panel panel-default">
-					<div class="panel-heading" role="tab">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-2794" href="service-information/faq/#accordion-2794-30">
-								When do I need an interpreter? Who can I contact and which services can I get in addition to translation services?
-							</a>
-						</h4>
-					</div>
-					<div id="accordion-2794-30"
-						 class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
+					<div onclick="showOnClick('q3_2')" class="panel-title">When do I need an interpreter? Who can I contact and which services can I get in addition to translation services?</div>
+					<div class="panel-body" id="q3_2">
 							<p>Should patients not be proficient in the German or English language, it is important that an interpreter certified by Grand Cottbus Hospital is hired in time by the patient for any required doctor’s consultations before treatment begins. Patients looking to hire a certified interpreter or with questions, e.g. about the standard rates for interpreters / other assistance services, may contact our office. Our staff can help to find an interpreter. </p>
 						</div>
 					</div>
-				</div>
 
 				<div class="panel panel-default">
-					<div class="panel-heading" role="tab">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-2794" href="service-information/faq/#accordion-2794-31">
-								Does the hospital pay any commission fees to interpreters or facilitators?
-							</a>
-						</h4>
-					</div>
-					<div id="accordion-2794-31"
-						 class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
+					<div onclick="showOnClick('q3_3')" class="panel-title">Does the hospital pay any commission fees to interpreters or facilitators?</div>
+					<div class="panel-body" id="q3_3">
 							<p>No, the hospital does not pay commission fees. Interpreters / facilitators may charge patients for additional facilitator services (for example translation of medical documents from the patient’s home country). If you are not sure whether rates are reasonable, feel free to contact us. </p>
 						</div>
 					</div>
-				</div>
+        </div>
+      </div>
 
-		</div>
 
-
-</div>
-	<!--  CONTENT ELEMENT, uid:2794/io_template_accordion [end] -->
-
-	<!--  CONTENT ELEMENT, uid:2795/io_template_accordion [begin] -->
-		<div id="c2795"><a id="c2795" class="anchor"></a>
-		<!--  Header: [begin] -->
+		<div class="lastfaqcontainer">
 			<h3>During and after treatment </h3>
-		<!--  Header: [end] -->
-
-		<div class="panel-group" id="accordion-2795" role="tablist" aria-multiselectable="true">
-
+      		<div class="panelbox">
 				<div class="panel panel-default">
-					<div class="panel-heading" role="tab">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-2795" href="service-information/faq/#accordion-2795-32">
-								Will my personal and medical data be well protected?
-							</a>
-						</h4>
-					</div>
-					<div id="accordion-2795-32"
-						 class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
+					<div onclick="showOnClick('q4_1')" class="panel-title">Will my personal and medical data be well protected?</div>
+						<div class="panel-body" id="q4_1">
 							<p>Please rest assured that Grand Cottbus Hospital greatly values the protection of your personal and medical data; our employees are obliged to adhere to strict data protection regulations.</p>
 						</div>
-					</div>
 				</div>
 
 				<div class="panel panel-default">
-					<div class="panel-heading" role="tab">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-2795" href="service-information/faq/#accordion-2795-33">
-								Will I be hospitalized for my treatment?
-							</a>
-						</h4>
-					</div>
-					<div id="accordion-2795-33"
-						 class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
+					<div onclick="showOnClick('q4_2')" class="panel-title">Will I be hospitalized for my treatment?</div>
+					<div class="panel-body" id="q4_2">
 							<p>Whenever possible, we will perform treatments on an outpatient basis. This means that you will only be hospitalized if it is medically required. Please notice that hospital stays are limited to a minimum. </p>
-						</div>
 					</div>
 				</div>
 
 				<div class="panel panel-default">
-					<div class="panel-heading" role="tab">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-2795" href="service-information/faq/#accordion-2795-35">
-								How will I be accommodated and how are patient rooms equipped?
-							</a>
-						</h4>
-					</div>
-					<div id="accordion-2795-35"
-						 class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
+					<div onclick="showOnClick('q4_3')" class="panel-title">How will I be accommodated and how are patient rooms equipped?</div>
+					<div class="panel-body" id="q4_3">
 							<p>You will find our patient rooms – most of which are doubles – bright, comfortable, and well equipped. Each room on the regular wards has a bathroom. Some rooms have a terrace or balcony. Our rooms are equipped with the following for your communication and entertainment needs:</p><ul><li>Television (including Arabic and English-language channels)</li><li>Telephone (at reasonable rates)</li><li>Internet (free of charge)</li></ul><p>For more information, check with the nursing staff or at the admissions office (near the entrance). We make every effort to accommodate special requests concerning your room. Heidelberg University Hospital is very much in demand. For this reason, we ask you to understand that we are not always able to satisfy requests for a single room or accommodations for a guest; our primary concern and obligation are ensuring that we do not have to turn away patients due to bed shortages.</p>
-						</div>
 					</div>
 				</div>
 
 				<div class="panel panel-default">
-					<div class="panel-heading" role="tab">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-2795" href="service-information/faq/#accordion-2795-36">
-								Can special meal preferences be allowed for?
-							</a>
-						</h4>
+					<div onclick="showOnClick('q4_4')" class="panel-title">Can special meal preferences be allowed for?
 					</div>
-					<div id="accordion-2795-36"
-						 class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
+					<div class="panel-body" id="q4_4">
 							<p>Should your state of health require special nutrition or should you have individual wishes or habits, we will be happy to allow for these. Please tell the nursing staff about your requests prior to the beginning of your treatment. </p>
-						</div>
 					</div>
 				</div>
 
 				<div class="panel panel-default">
-					<div class="panel-heading" role="tab">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-2795" href="service-information/faq/#accordion-2795-37">
-								When and where do I need to extend my visa?
-							</a>
-						</h4>
-					</div>
-					<div id="accordion-2795-37"
-						 class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
+					<div onclick="showOnClick('q4_5')" class="panel-title">When and where do I need to extend my visa?</div>
+          			<div class="panel-body" id="q4_5">
 							<p>Visa extensions are issued by the locally competent foreigners’ registration office in Cottbus. Your Case Manager at the office will be happy to issue a new confirmation for a visa extension if further treatment is required and the expected treatment costs have been guaranteed. Patients or relatives should contact their Case Manager some time before the visa expires since the preparation of the confirmation document may take some days. </p>
-						</div>
 					</div>
-				</div>
+					</div>
 
 				<div class="panel panel-default">
-					<div class="panel-heading" role="tab">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-2795" href="service-information/faq/#accordion-2795-38">
-								Will I receive a medical report in English?
-							</a>
-						</h4>
-					</div>
-					<div id="accordion-2795-38"
-						 class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
+					<div onclick="showOnClick('q4_6')" class="panel-title">Will I receive a medical report in English?</div>
+					<div class="panel-body" id="q4_6">
 							<p>Upon completion of the treatment, the treating physician will prepare a detailed medical report in English, if desired. You will usually receive a preliminary letter immediately after treatment; the preparation of the finalized letter, which will also be authorized by the respective Medical Director, is usually issued within four weeks upon completion of the treatment. This letter will include information on the diagnoses, the treatment performed as well as recommendations for further medical care. </p>
-						</div>
 					</div>
 				</div>
-
+        	</div>
 		</div>
 
 
-</div>
-	<!--  CONTENT ELEMENT, uid:2795/io_template_accordion [end] -->
-
-	<!--  CONTENT ELEMENT, uid:2796/io_template_accordion [begin] -->
-		<div id="c2796"><a id="c2796" class="anchor"></a>
-		<!--  Header: [begin] -->
-			<h3>Contacts in case of an emergency</h3>
-		<!--  Header: [end] -->
-
-		<div class="panel-group" id="accordion-2796" role="tablist" aria-multiselectable="true">
-
-				<div class="panel panel-default">
-					<div class="panel-heading" role="tab">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-2796" href="service-information/faq/#accordion-2796-39">
-								During your stay at the hospital:
-							</a>
-						</h4>
-					</div>
-					<div id="accordion-2796-39"
-						 class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
-							<p>Please inform our staff, e.g. via your relatives or press the call button; the nursing staff will then come to you immediately. </p>
-						</div>
-					</div>
-				</div>
-
     </section>
+
     <footer>
         <div class="foo_nav">
           <a href="./datenschutz.html" >Impressum & Datenschutz</a>
           <a href="./contactus.html" >Contact Us</a>
-          <a href="./startsite">Home</a>
+          <a href="./index.html">Home</a>
         </div>
         <div class="icon-bar">
           <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>

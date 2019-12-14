@@ -161,7 +161,6 @@ footer {
 	position: fixed;
 	bottom: 0;
 	background-color: white;
-  overflow: hidden;
 }
 
 .foo_nav {
@@ -194,7 +193,6 @@ footer {
 	display: inline-block;
 	text-align: center;
 	padding: 16px;
-
 }
 
 .icon-bar a:hover {
@@ -202,21 +200,21 @@ footer {
 }
 
 .facebook {
-	background-image: url("images/facebook.svg");
+	background-image: url("./facebook.svg");
 	color: white;
 }
 
 .twitter {
-	background-image: url("images/twitter.svg");
+	background-image: url("./twitter.svg");
 	color: white;
 }
 
 .google {
-	background-image: url("images/search.svg");
+	background-image: url("./search.svg");
 	color: white;
 }
 
 .youtube {
-	background-image: url("images/youtube.svg");
+	background-image: url("./youtube.svg");
 	color: white;
 }
