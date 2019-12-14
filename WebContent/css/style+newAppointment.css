@@ -1,0 +1,59 @@
+* {
+	overflow: visible;
+}
+
+.container {
+	padding-bottom: 5%;
+}
+
+.appointTitle {
+	text-align: center;
+	background-color: #D8D8D8;
+}
+
+.appointInfo {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.appointInfo .callus {
+	text-align: center;
+	font-weight: bold;
+	color: #BC2828;
+}
+
+.appointInfo .callus i {
+	text-decoration: underline;
+}
+
+.appointInfo img {
+	height: 20px;
+	width: 20px;
+}
+
+ul.appointLength {
+	list-style: none;
+	list-style-image: url("../images/hospital_list_icon.png");
+}
+
+ul.appointLength>li:FIRST-CHILD {
+	padding-top: 0;
+}
+
+ul.appointLength li {
+	padding-left: 10px;
+	padding-top: 1em;
+}
+
+table.openingHour {
+	margin: auto;
+	text-align: center;
+}
+
+table.openingHour th {
+	padding-bottom: 3%;
+}
+
+table.openingHour td {
+	border: 1px solid;
+}

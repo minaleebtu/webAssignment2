@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hospital>
+	<Department>
+		<Name>Accident and emergency</Name>
+		<TelNo>0178 8234661</TelNo>
+		<Email>emergency@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>Admissions</Name>
+		<TelNo>0178 8234662</TelNo>
+		<Email>admissions@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>Pharmacy</Name>
+		<TelNo>0178 8234663</TelNo>
+		<Email>pharmacy@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>Breast Screening</Name>
+		<TelNo>0178 8234664</TelNo>
+		<Email>breastscreen@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>Critical Care</Name>
+		<TelNo>0178 8234665</TelNo>
+		<Email>criticalcare@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>General Services</Name>
+		<TelNo>0178 8234666</TelNo>
+		<Email>general@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>Human Resources</Name>
+		<TelNo>0178 8234667</TelNo>
+		<Email>hr@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>Patient Services</Name>
+		<TelNo>0178 8234668</TelNo>
+		<Email>patientservice@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>Radiology</Name>
+		<TelNo>0178 8234669</TelNo>
+		<Email>radiology@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>Social Work</Name>
+		<TelNo>0178 8234670</TelNo>
+		<Email>socialwork@gch.de</Email>
+	</Department>
+</Hospital>
