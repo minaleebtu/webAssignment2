@@ -1,0 +1,52 @@
+* {
+	overflow: visible;
+}
+
+.contactTitle {
+	text-align: center;
+	background-color: #D8D8D8;
+}
+
+.contactInfo {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.linkButton, .contactContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.contactContainer>div {
+	padding-top: 3%;
+	display: block;
+	/* 	margin: 20px; */
+	width: 60%;
+	text-align: center;
+/* 	border: solid 1px; */
+}
+
+.phone p {
+	padding-top: 1.5em;
+}
+
+.email p {
+/* 	padding-top: 1em; */
+}
+
+.email>p>a {
+	text-decoration: none;
+}
+
+.linkButton>div {
+	display: block;
+	margin: 20px;
+	background-color: #0B0B61;
+}
+
+.phoneDirectory a, .videoLibrary a {
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+}
