@@ -3,7 +3,6 @@
 	font-family: "Roboto", Helvetica, sans-serif;
 	overflow: auto;
 	scroll-behavior: smooth;
-	
 }
 
 html {
@@ -13,7 +12,8 @@ html {
 }
 
 header {
-	background-image: url("../images/doctor_edited.png");
+	background-image: url("../images/GCH_logo.svg");
+	background-size: 150px 80px;
 	background-position: left;
 	background-attachment: scroll;
 	background-repeat: no-repeat;
@@ -203,21 +203,37 @@ footer {
 }
 
 .facebook {
+<<<<<<< HEAD
 	background-image: url("./facebook.svg");
+=======
+	background-image: url("../images/facebook.svg");
+>>>>>>> branch 'master' of https://github.com/minaleebtu/webAssignment2
 	color: white;
 }
 
 .twitter {
+<<<<<<< HEAD
 	background-image: url("./twitter.svg");
+=======
+	background-image: url("../images/twitter.svg");
+>>>>>>> branch 'master' of https://github.com/minaleebtu/webAssignment2
 	color: white;
 }
 
 .google {
+<<<<<<< HEAD
 	background-image: url("./search.svg");
+=======
+	background-image: url("../images/search.svg");
+>>>>>>> branch 'master' of https://github.com/minaleebtu/webAssignment2
 	color: white;
 }
 
 .youtube {
+<<<<<<< HEAD
 	background-image: url("./youtube.svg");
+=======
+	background-image: url("../images/youtube.svg");
+>>>>>>> branch 'master' of https://github.com/minaleebtu/webAssignment2
 	color: white;
 }
