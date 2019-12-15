@@ -10,8 +10,6 @@ window.onload = function loadXMLDoc() {
 };
 
 function myFunction(xml) {
-	// var deptName, telNo, emailAddr, i, j, xmlDoc, deptNameCont, telNoCont,
-	// emailAddrCont;
 	var xmlDoc = xml.responseXML;
 	var deptNameCont = "";
 	var telNoCont = "";

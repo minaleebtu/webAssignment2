@@ -30,14 +30,14 @@
 	font-weight: bold;
 }
 
+.listTitles>div {
+	width: 60%;
+}
+
 .phoneList>div {
 	display: block;
 	width: 60%;
 	text-align: center;
-}
-
-#deptListTitle, #telListTitle, #emailListTitle {
-	width: 60%;
 }
 
 .phoneList>div>p {
