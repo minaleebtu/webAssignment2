@@ -11,6 +11,11 @@
 .contactTitle {
 	text-align: center;
 	background-color: #D8D8D8;
+	padding-top: 3.5%;
+}
+
+.contactTitle h2 {
+	padding-bottom: 1%;
 }
 
 .contactInfo {
