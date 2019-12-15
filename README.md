@@ -19,7 +19,7 @@ Chaerin Kim will make...
 - find-doctor.html
 - doctors-list.html
 - info-patients.html
-- payment-finance.html
+- payment.html
 - forms.html
 - services.html
 - education-programs.html
