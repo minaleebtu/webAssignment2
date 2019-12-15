@@ -1,0 +1,83 @@
+.description{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 13%;
+  width: 80%;
+  border: 3px solid #0B0B61;
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+  padding-bottom: 0;
+  height: 50%;
+  align-items: center;
+}
+
+#intro{
+  display: table-caption;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2em;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.button-container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  overflow: hidden;
+}
+
+.row1{
+  margin-left: 6%;
+  margin-right: 4%;
+}
+
+.cell{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 3px solid #0B0B61;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  height: 100px;
+  background-color: #A9E2F3;
+  box-shadow: 5px 3px 3px #0B0B61;
+  margin-left: 0.5%;
+  margin-right: 2%;
+}
+
+.cell>a{
+  overflow-x: hidden;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.4em;
+}
+
+.pediatrician,.rheumatologist, .psychiatrist{
+  margin-right: -2px;
+  margin-left: 2%;
+  padding: 5px;
+}
+.surgeon, .psychiatrist, .opthalmologist, .cardiologist,  .radiologist, .oncologist{
+  margin-right: -2px;
+  margin-left: -2px;
+  padding: 5px;
+}
+
+.dermatologist, .cardiologist, .oncologist{
+  margin-bottom: 0;
+}
+
+.cell:hover{
+  color: white;
+  background-color: #0B0B61;
+}

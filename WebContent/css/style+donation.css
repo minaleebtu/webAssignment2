@@ -1,0 +1,18 @@
+* {
+	overflow: visible;
+}
+
+.donationTitle {
+	text-align: center;
+	background-color: #D8D8D8;
+}
+
+.donationInfo {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.donationInfo h2 {
+	text-align: center;
+	color: #0B0B61;
+}

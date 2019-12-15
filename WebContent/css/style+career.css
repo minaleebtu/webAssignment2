@@ -1,0 +1,39 @@
+* {
+	overflow: visible;
+}
+
+.container {
+	padding-bottom: 5%;
+}
+
+.careerTitle {
+	text-align: center;
+	background-color: #D8D8D8;
+}
+
+.careerInfo {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.careerInfo .careercontact {
+	color: #BC2828;
+}
+
+.careerInfo .careercontact>a {
+	text-decoration: none;
+	color: #BC2828;
+	font-weight: bold;
+}
+
+.careerInfo>div>ul>li>blockquote {
+	margin-top: 1%;
+}
+
+.careerInfo>div>h3 {
+	text-align: center;
+}
+
+.nested {
+	list-style-type: square;
+}

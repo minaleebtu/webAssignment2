@@ -1,0 +1,49 @@
+* {
+	overflow: visible;
+}
+
+.container {
+	padding-bottom: 5%;
+}
+
+.phonedirTitle {
+	text-align: center;
+	background-color: #D8D8D8;
+}
+
+.phonedir {
+	padding-top: 3%;
+	width: 70%;
+	margin: 0 auto;
+	width: 70%;
+}
+
+.phoneList {
+	display: flex;
+	justify-content: center;
+}
+
+.listTitles {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-weight: bold;
+}
+
+.phoneList>div {
+	display: block;
+	width: 60%;
+	text-align: center;
+}
+
+#deptListTitle, #telListTitle, #emailListTitle {
+	width: 60%;
+}
+
+.phoneList>div>p {
+	padding-top: 1%;
+}
+
+.phoneList>div>p:FIRST-CHILD {
+	margin: 0%;
+}
