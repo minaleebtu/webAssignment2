@@ -4,15 +4,13 @@ We will make a website for Grand Cottbus Hospital.
 
 Mina Lee will make...
 - aboutus.html
-- video-library.html
-- request-appointment.html
-- careers.html
-- careers-list.html
-- donations.html
-- donation-confirmation.html
-- contact-us.html
-- phone-directory.html
-- maps(including svg)
+- videoLibrary.html
+- newAppointment.html
+- career.html
+- donation.html
+- contactus.html
+- phoneDirectory.html
+- map.html (including svg)
 
 Chaerin Kim will make...
 - faq.html
