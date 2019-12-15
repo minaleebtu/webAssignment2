@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<script type="text/javascript" src="../js/js+donation.js"></script>
 <link rel="stylesheet" href="../css/style+common.css">
 <link rel="stylesheet" href="../css/style+donation.css">
 <title>Donation</title>
@@ -28,13 +29,45 @@
 	</section>
 	<section class="container">
 		<div class="donationTitle">
-			<h2>Support our hospital</h2>
+			<h2>Make a donation</h2>
 		</div>
 		<article class="donationInfo">
-			<h2>Make a donation</h2>
-			Through the generosity of donors like you, we've been able to help
-			over one million children reach their potential and lead more
-			fulfilling lives, regardless of a families' ability to pay.
+			&nbsp;Through the generosity of donors like you, we've been able to
+			help over one million children reach their potential and lead more
+			fulfilling lives, regardless of a families' ability to pay.<br>
+			<br>&nbsp;Make your gift today to help Grand Cottbus Hospital
+			provide life-changing care to our children who need your help.
+			<div class="imgcontainer">
+				<img src="../images/donate_children.jpg" alt=""> <img
+					src="../images/donate_children2.jpg" alt="">
+			</div>
+			<h2>Select an amount</h2>
+			<div class="donate_amount">
+				<button type="button" class="amountValue" value="10"
+					onclick="displayAmount(this);">€10</button>
+				<button type="button" class="amountValue" value="25"
+					onclick="displayAmount(this);">€25</button>
+				<button type="button" class="amountValue" value="50"
+					onclick="displayAmount(this);">€50</button>
+				<button type="button" class="amountValue" value="75"
+					onclick="displayAmount(this);">€75</button>
+				<button type="button" class="amountValue" value="100"
+					onclick="displayAmount(this);">€100</button>
+			</div>
+			<div class="donate_chk">
+				<div class="yourdonation">
+					<span>Your donation:</span>
+				</div>
+				<div id="amount_chk"></div>
+				<div class="donate_btn">
+					<button type="button" value="Donate" onclick="confirmDonate();">Donate
+						Now!</button>
+				</div>
+			</div>
+			<div class="reset_btn">
+				<button type="button" class="resetAmount" id="resetAmount"
+					onclick="resetAmount();">RESET AMOUNT</button>
+			</div>
 		</article>
 	</section>
 	<footer>
