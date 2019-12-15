@@ -2,17 +2,96 @@
 	overflow: visible;
 }
 
+.container {
+	padding-bottom: 5%;
+}
+
 .donationTitle {
 	text-align: center;
 	background-color: #D8D8D8;
 }
 
 .donationInfo {
-	width: 70%;
+	width: 60%;
 	margin: 0 auto;
 }
 
 .donationInfo h2 {
 	text-align: center;
 	color: #0B0B61;
+}
+
+.donationInfo img {
+	width: 15em;
+	height: 10em;
+}
+
+.imgcontainer {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	display: flex;
+	justify-content: center;
+}
+
+.donate_amount {
+	padding-top: 1%;
+	display: flex;
+	justify-content: center;
+}
+
+.donate_amount>button {
+	background-color: #008CBA;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.donate_chk {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 2%;
+}
+
+.donate_chk>div {
+	width: 60%;
+}
+
+#amount_chk, #amount_chk>span {
+	padding-top: 0.7em;
+}
+
+.donate_chk .yourdonation {
+	padding-top: 0.5em;
+}
+
+.donate_btn>button, .reset_btn>button {
+	background-color: #008CBA;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+	margin-left: 1em;
+}
+
+.reset_btn>button {
+	margin-left: 4em;
+}
+
+button:hover {
+	background-color: #0431B4;
 }
