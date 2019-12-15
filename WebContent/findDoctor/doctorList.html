@@ -28,35 +28,11 @@
   		</nav>
   	</section>
 
-    <section class="container">
+  <section class="container">
       <table id="showDoctors">
-
+        <tr id="nameList"></tr>
+        <tr id="deptList"></tr>
       </table>
-      <script language="JavaScript">  // Create a connection to the file.
-  		var Connect = new XMLHttpRequest();
-  		// Define which file to open and
-  		// send the request.
-  		Connect.open("GET", "./doctorList.xml", false);
- 		Connect.setRequestHeader("Content-Type", "text/xml");
-  		Connect.send(null);
-  		// Place the response in an XML document.
-  		var TheDocument = Connect.responseXML;
-  		// Place the root node in an element.
-  		var Doctors = TheDocument.childNodes[0];
-  		// Retrieve each customer in turn.
-  		for (var i = 0; i < Doctors.children.length; i++){
-   			var Doctor = Doctors.children[i];
-   			// Access each of the data values.
-   			var Name = Doctor.getElementsByTagName("name");
-   			var Department = Doctor.getElementsByTagName("department");
-   			// Write the data to the page.
-   			document.write("<tr><td>");
-   			document.write(Name[0].textContent.toString());
-   			document.write("</td><td>");
-   			document.write(Department[0].textContent.toString());
-   			document.write("</td></tr>");
-  			}
-		</script>
     </section>
     <footer>
         <div class="foo_nav">
