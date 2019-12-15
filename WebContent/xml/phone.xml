@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hospital>
+	<Department>
+		<Name>Accident and emergency</Name>
+		<TelNo>0178 8234661</TelNo>
+		<Email>emergency@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>Admissions</Name>
+		<TelNo>0178 8234662</TelNo>
+		<Email>admissions@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>Pharmacy</Name>
+		<TelNo>0178 8234663</TelNo>
+		<Email>pharmacy@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>Breast Screening</Name>
+		<TelNo>0178 8234664</TelNo>
+		<Email>breastscreen@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>Urology</Name>
+		<TelNo>0178 8234665</TelNo>
+		<Email>urology@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>General Services</Name>
+		<TelNo>0178 8234666</TelNo>
+		<Email>general@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>Otolaryngology</Name>
+		<TelNo>0178 8234667</TelNo>
+		<Email>otolaryngology@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>Ophthalmology</Name>
+		<TelNo>0178 8234668</TelNo>
+		<Email>ophthalmology@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>Radiology</Name>
+		<TelNo>0178 8234669</TelNo>
+		<Email>radiology@gch.de</Email>
+	</Department>
+	<Department>
+		<Name>Cardiology</Name>
+		<TelNo>0178 8234670</TelNo>
+		<Email>cardiology@gch.de</Email>
+	</Department>
+</Hospital>

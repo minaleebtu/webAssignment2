@@ -1,0 +1,58 @@
+* {
+	overflow: visible;
+}
+
+@media only screen and (max-width: 1203px) {
+	.container {
+		padding-bottom: 5%;
+	}
+}
+
+.contactTitle {
+	text-align: center;
+	background-color: #D8D8D8;
+}
+
+.contactInfo {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.linkButton, .contactContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.contactContainer>div {
+	padding-top: 3%;
+	display: block;
+	width: 60%;
+	text-align: center;
+}
+
+.phone p {
+	padding-top: 1.5em;
+}
+
+.phone>p>a {
+	text-decoration: none;
+	color: #0B0B61;
+}
+
+.email>p>a {
+	/* 	text-decoration: none; */
+	color: #0B0B61;
+}
+
+.linkButton>div {
+	display: block;
+	margin: 20px;
+	background-color: #0B0B61;
+}
+
+.phoneDirectory a, .videoLibrary a {
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+}

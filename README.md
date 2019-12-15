@@ -16,14 +16,14 @@ Mina Lee will make...
 
 Chaerin Kim will make...
 - faq.html
-- find-doctor.html
-- doctors-list.html
-- info-patients.html
-- payment-finance.html
+- findDoctor.html
+- doctorList.html
+- forPatients.html
+- payment.html
 - forms.html
 - services.html
 - education-programs.html
-- child-care.html
+- childcare.html
 - private-nursing.html
 
 
