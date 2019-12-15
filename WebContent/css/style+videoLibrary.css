@@ -1,0 +1,108 @@
+* {
+	overflow: visible;
+}
+
+.container {
+	padding-bottom: 5%;
+}
+
+.videoTitle {
+	text-align: center;
+	background-color: #D8D8D8;
+}
+
+.videoInfo {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.accordion {
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.accordion ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.accordion li {
+	margin: 0;
+	padding: 0;
+}
+
+.accordion [type=radio], .accordion [type=checkbox] {
+	display: none;
+}
+
+.accordion label {
+	display: block;
+	background-color: #0072bc;
+	color: white;
+	/* 	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3); */
+	cursor: pointer;
+	color: white;
+	/* 	text-transform: uppercase; */
+}
+
+.accordion ul li label:hover, .accordion [type=radio]:checked ~ label,
+	.accordion [type=checkbox]:checked ~ label {
+	/* 	background: #C02942; */
+	/* 	color: #FFF; */
+	
+}
+
+.accordion .content {
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+.accordion p {
+	/* 	color: #333; */
+	margin: 0 0 10px;
+}
+
+/* Vertical */
+.accordion ul li {
+	overflow: hidden;
+	margin: 0 0 1px;
+}
+
+.accordion ul li label {
+	padding: 10px;
+}
+
+.accordion [type=radio]:checked ~ label, .vertical [type=checkbox]:checked 
+	 ~ label {
+	/* 		border-bottom: 0; */
+	
+}
+
+.accordion ul li label:hover {
+	background-color: #084B8A;
+	color: white;
+}
+
+.accordion ul li .content {
+	overflow: auto;
+	height: 0px;
+	/* 		border-top: 0; */
+}
+
+.accordion [type=radio]:checked ~ label ~ .content, .accordion [type=checkbox]:checked 
+	 ~ label ~ .content {
+	height: 300px;
+	/* 	border: 1px solid #542437; */
+}
+
+.videoContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 3%;
+}
+
+video {
+	width: 70%;
+}
