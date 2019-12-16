@@ -101,6 +101,11 @@
 	/* 	border: 1px solid #542437; */
 }
 
+.content>p {
+	padding-top: 3%;
+	padding-left: 12%;
+}
+
 .videoContainer {
 	display: flex;
 	justify-content: center;
