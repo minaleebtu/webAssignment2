@@ -9,11 +9,11 @@
 .donationTitle {
 	text-align: center;
 	background-color: #D8D8D8;
-	padding-top: 3.5%;
 }
 
 .donationTitle h2 {
-	padding-bottom: 1%;
+	padding-top: 43px;
+	padding-bottom: 13px;
 }
 
 .donationInfo {
