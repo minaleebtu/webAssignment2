@@ -1,0 +1,36 @@
+.container{
+  align-items: center;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+#policy{
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 0.8em;
+}
+#update{font-size: 1em;}
+a{font-size: 0.8em;}
+#intro{font-size: 1em;}
+#responsible, #contract, #officer,#r1{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+li{font-size: 0.8em;}
+p{margin-bottom: 0.5%;}
+
+h2{background-color: #eeeeee;}
+
+#title{
+  font-style: italic;
+  font-size: 1em;
+}
+
+#DPO, #caution{font-size: 1em;}
