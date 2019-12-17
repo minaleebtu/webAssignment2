@@ -3,7 +3,7 @@
   margin-bottom:2%;
   margin-left: 2%;
   margin-right: 2%;
-  width: 90%;
+  width: 95%;
   border:1px solid transparent;
   text-align: justify;
 }
@@ -12,7 +12,7 @@
   margin-bottom:12%;
   margin-left: 2%;
   margin-right: 2%;
-  width: 90%;
+  width: 95%;
   border:1px solid transparent;
   text-align: justify;
 }
@@ -23,8 +23,10 @@
 	text-align: center;
 	margin-top: -0.5%;
 	margin-bottom: -3%;
+}
+
+.faqTitle > h2{
 	padding-bottom: -1.5%;
-	height: 75%;
 }
 
 .panelbox{display: inline-block;}
