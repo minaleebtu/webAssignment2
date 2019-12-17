@@ -8,7 +8,7 @@
   padding: 3%;
   margin-left: 1%;
   background-color: white;
-  margin-bottom: 5%;
+ 
 }
 .serviceTitle{
 	background-color: #E6F0FF;
@@ -19,7 +19,7 @@
   grid-template-rows: repeat(3, 1fr);
   justify-content: center;
   overflow: hidden;
-
+  margin-bottom: 5%;
 }
 
 .button{

@@ -18,6 +18,9 @@
   text-align: justify;
 }
 
+.faqTitle{
+	background-color: #E6F0FF;
+}
 .panelbox{display: inline-block;}
 
 .panel-title{
