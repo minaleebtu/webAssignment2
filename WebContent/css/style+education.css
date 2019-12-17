@@ -24,14 +24,14 @@
   	border-radius: 10px;
 }
 
-.prt_container{
+.description{
   background-image: url("../images/nurse_1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
 
-.description{
+.prtnursing{
   text-align: center;
   margin-top: 3%;
   margin-left: 3%;
@@ -48,5 +48,5 @@
 }
 #education_program, #prt_nursing{
   margin-top: 1%;
-  margin-bottom: 5%;
+  margin-bottom: 0.5%;
 }
