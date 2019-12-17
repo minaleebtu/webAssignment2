@@ -4,7 +4,7 @@
 	text-align: center;
 	margin-top: -0.5%;
 	padding-bottom: -0.5%;
-	margin-bottom: -0.5%;
+	margin-bottom: -1%;
 	overflow: hidden;
 }
 
@@ -12,7 +12,6 @@
   width: 99%;
   height: 80%;
   text-align: center;
-  background-color: white;
   overflow: hidden;
 }
 
