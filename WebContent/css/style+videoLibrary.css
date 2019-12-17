@@ -11,6 +11,11 @@
 	background-color: #D8D8D8;
 }
 
+.videoTitle h2 {
+	padding-top: 43px;
+	padding-bottom: 13px;
+}
+
 .videoInfo {
 	width: 70%;
 	margin: 0 auto;
@@ -94,6 +99,11 @@
 	 ~ label ~ .content {
 	height: 300px;
 	/* 	border: 1px solid #542437; */
+}
+
+.content>p {
+	padding-top: 3%;
+	padding-left: 12%;
 }
 
 .videoContainer {

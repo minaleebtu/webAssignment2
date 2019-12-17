@@ -13,6 +13,11 @@
 	background-color: #D8D8D8;
 }
 
+.contactTitle h2 {
+	padding-top: 43px;
+	padding-bottom: 13px;
+}
+
 .contactInfo {
 	width: 70%;
 	margin: 0 auto;

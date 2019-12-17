@@ -11,6 +11,11 @@
 	background-color: #D8D8D8;
 }
 
+.historyTitle h2 {
+	padding-top: 43px;
+	padding-bottom: 13px;
+}
+
 .aboutus {
 	width: 70%;
 	margin: 0 auto;
