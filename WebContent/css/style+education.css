@@ -33,11 +33,11 @@
 }
 
 .description{
-  background-image: url("../images/nurse_1.jpg");
+  background-image: url("../images/nurse.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  height: 100%;
+  height: 300%;
 }
 #description{
 	background-color: white;
