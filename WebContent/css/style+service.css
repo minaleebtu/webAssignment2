@@ -9,6 +9,9 @@
   margin-left: 1%;
   background-color: white;
 }
+.serviceTitle{
+	background-color: #A9E2F3;
+}
 .buttoncontainer{
   width: 100%;
   display: grid;
