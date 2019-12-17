@@ -13,13 +13,9 @@
 	background-color: #E6F0FF;
 	text-align: center;
 	width: 100%;
-	margin-top: -5%;
-	margin-bottom: -2%;
+	margin-top: -0.5%;
+	margin-bottom: -1%;
 	overflow: hidden;
-}
-.patientsTitle > h2{
-	padding-top: 43px;
-	padding-bottom: 13px;
 }
 
 .button-container{
