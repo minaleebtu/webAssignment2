@@ -21,7 +21,14 @@
 .faqTitle{
 	background-color: #E6F0FF;
 	width: 100%;
+	text-align: center;
+	margin-top: 0;
 }
+.faqTitle > h2{
+	padding-top: 43px;
+	padding-bottom: 13px;
+	}
+	
 .panelbox{display: inline-block;}
 
 .panel-title{

@@ -9,8 +9,16 @@
   align-items: center;
 }
 
-.patientstitle{
+.patientsTitle{
 	background-color: #E6F0FF;
+	text-align: center;
+	width: 100%;
+	margin-top: 0;
+}
+
+.patientsTitle > h2{
+	padding-top: 43px;
+	padding-bottom: 13px;
 }
 
 .button-container{
