@@ -1,11 +1,12 @@
 .faqcontainer{
-  margin-top: 2%;
+  margin-top: 1%;
   margin-bottom:2%;
   margin-left: 2%;
   margin-right: 2%;
-  width: 90%;
+  width: 100%;
   border:1px solid transparent;
   text-align: justify;
+  background-color: white;
 }
 
 .lastfaqcontainer{
