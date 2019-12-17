@@ -16,7 +16,9 @@
   align-items: center;
   margin-top: 2%;
 }
-
+.description{
+	margin-bottom: 3%;
+}
 .prtnursing{
   text-align: center;
   margin-top: 3%;
