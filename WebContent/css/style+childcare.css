@@ -1,4 +1,14 @@
+.serviceTitle{
+	text-align: center;
+	background-color: #E6F0FF;
+	width: 100%;
+	margin-top: 0;
+}
 
+.serviceTitle > h2{
+	padding-top: 43px;
+	padding-bottom: 13px;
+}
 .container {
   position: fixed;
   width: 100%;
