@@ -3,7 +3,6 @@
 	background-color: #E6F0FF;
 	width: 100%;
 	margin-top: 0;
-	height: 50px;
 }
 
 .description{
@@ -12,8 +11,6 @@
   margin-top: 2%;
   margin-bottom: 13%;
   width: 80%;
-  border: 3px solid #0B0B61;
-  border-radius: 10px;
   text-align: center;
   overflow: hidden;
   padding-bottom: 0;
