@@ -4,10 +4,11 @@
   width: 100%;
   height: 80%;
   text-align: center;
-  background-image: url("./child_care.jpg");
+  background-image: url("../images/child_care.jpg");
   background-position: right;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  align-items: center;
 }
 
 .description{
@@ -19,6 +20,10 @@
   float: left;
   width: 30%;
   background-color: #7FDD78;
+}
+
+.serviceTitle{
+	background-color:#E6F0FF;
 }
 
 #hospitalization{
