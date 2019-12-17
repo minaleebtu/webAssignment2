@@ -5,6 +5,7 @@
   height: 80%;
   text-align: center;
   background-color: #A9E2F3;
+  align-items: center;
 }
 
 .prt_container{
@@ -24,10 +25,8 @@
   width: 80%;
   background-color: white;
 }
-#description{
-  border-bottom: 3px solid #0B0B61;
-  font-style: italic;
-  font-size: 20pt;
+#programTitle{
+ 	background-color: #A9E2F3;
 }
 #education_program, #prt_nursing{
   margin-top: 1%;
