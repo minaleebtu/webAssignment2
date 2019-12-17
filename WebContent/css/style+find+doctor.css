@@ -56,18 +56,18 @@
   font-size: 1.4em;
 }
 
-.pediatrician,.rheumatologist, .psychiatrist{
+.AAE,.pharmacy, .GS{
   margin-right: -2px;
   margin-left: 2%;
   padding: 5px;
 }
-.surgeon, .psychiatrist, .opthalmologist, .cardiologist,  .radiologist, .oncologist{
+.cardiology, .GS, .opthalmology, .otolaryngology,  .radiology, .urology{
   margin-right: -2px;
   margin-left: -2px;
   padding: 5px;
 }
 
-.dermatologist, .cardiologist, .oncologist{
+.BS, .cardiology, .urology{
   margin-bottom: 0;
 }
 
