@@ -27,6 +27,7 @@
   	padding-right: 2%;
   	float: center;
   	width: 80%;
+  	height: 100%;
 }
 
 .description{
@@ -34,8 +35,15 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  height: 100%;
 }
-
+#description{
+	background-color: white;
+	margin-top: 1.5%;
+	margin-left: 2%;
+	margin-right:2%;
+	margin-bottom: 5%;
+}
 .prtnursing{
   text-align: center;
   margin-top: 3%;
