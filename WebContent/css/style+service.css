@@ -9,10 +9,10 @@
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   height: 80%;
   text-align: center;
-  overflow: auto;
+  overflow: hidden;
   padding: 0.5%;
   margin-left: 1%;
   background-color: white;
@@ -21,7 +21,6 @@
 .buttoncontainer{
   width: 100%;
   justify-content: center;
-  overflow: hidden;
   margin-bottom: 5%;
   float: center;
 }
