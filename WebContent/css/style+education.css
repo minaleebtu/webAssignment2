@@ -17,6 +17,13 @@
   margin-bottom: 4%;
 }
 
+.container1{
+	margin-top: 1.5%;
+	background-color: white;
+	border: 3px solid #0B0B61;
+  	border-radius: 10px;
+}
+
 .prt_container{
   background-image: url("../images/nurse_1.jpg");
   background-position: center;
@@ -32,6 +39,9 @@
   padding-right: 2%;
   float: center;
   width: 80%;
+  background-color: white;
+  border: 3px solid #0B0B61;
+  border-radius: 10px;
 }
 .programTitle{
  	background-color: #E6F0FF;
