@@ -4,7 +4,7 @@
 	width: 100%;
 	margin-top: -0.5%;
 	padding-bottom: -0.5%;
-	margin-bottom: -0.5%;
+	margin-bottom: -1%;
 	overflow: hidden;
 }
 
@@ -21,7 +21,12 @@
 	margin-top: 1.5%;
 	background-color: white;
 	border: 3px solid #0B0B61;
-  	border-radius: 10px;
+  	border-radius: 10px; 
+  	margin-left: 3%;
+  	padding-left: 2%;
+  	padding-right: 2%;
+  	float: center;
+  	width: 80%;
 }
 
 .description{
