@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 .programTitle{
 	text-align: center;
 	background-color: #E6F0FF;
 	width: 100%;
 	margin-top: -0.5%;
-	padding-bottom: -0.5%;
-	margin-bottom: -1.5%;
+	padding-bottom: -1.5%;
+	margin-bottom: -3%;
 	overflow: hidden;
 }
 
@@ -21,7 +20,6 @@
 }
 .prtnursing{
   text-align: center;
-  margin-top: 1%;
   margin-left: 3%;
   padding-left: 2%;
   padding-right: 2%;
@@ -35,45 +33,3 @@
   margin-top: 1%;
   margin-bottom: 0.5%;
 }
-=======
-.programTitle{
-	text-align: center;
-	background-color: #E6F0FF;
-	width: 100%;
-	margin-top: -0.5%;
-	padding-bottom: -0.5%;
-	margin-bottom: -1.5%;
-	overflow: hidden;
-}
-
-.prt_container {
-  width: 100%;
-  height: 500%;
-  text-align: center;
-  background-color: #A9E2F3;
-  align-items: center;
-  margin-top: 2%;
-}
-
-.description{
-	margin-bottom: 3%;
-}
-
-.prtnursing{
-  text-align: center;
-  margin-top: 3%;
-  margin-left: 3%;
-  padding-left: 2%;
-  padding-right: 2%;
-  float: center;
-  width: 80%;
-  background-color: white;
-  border: 3px solid #0B0B61;
-  border-radius: 10px;
-}
-
-#prt_nursing{
-  margin-top: 1%;
-  margin-bottom: 0.5%;
-}
->>>>>>> branch 'chaerinkim' of https://github.com/minaleebtu/webAssignment2
