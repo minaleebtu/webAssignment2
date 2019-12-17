@@ -2,7 +2,7 @@
 	text-align: center;
 	background-color: #E6F0FF;
 	width: 100%;
-	margin-top: 0;
+	margin-top: -1%;
 }
 
 .description{
@@ -16,18 +16,6 @@
   padding-bottom: 0;
   height: 100%;
   align-items: center;
-}
-
-#intro{
-  display: table-caption;
-  text-align: center;
-  width: 100%;
-  font-weight: bold;
-  font-style: italic;
-  font-size: 1.2em;
-  margin-bottom: 5%;
-  margin-top: 5%;
-  overflow: hidden;
 }
 
 .button-container{
