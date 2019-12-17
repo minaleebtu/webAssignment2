@@ -19,7 +19,6 @@
 
 .buttoncontainer{
   width: 100%;
-  justify-content: center;
   margin-bottom: 5%;
   float: center;
   margin-top: 4%;
@@ -27,7 +26,6 @@
 
 .button{
   display: inline-block;
-  align-items: center;
   border: 3px solid #0B0B61;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -38,7 +36,9 @@
   margin-left: 0.5%;
   margin-right: 2%;
   font-weight: bold;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 21%;
 }
 
 .button > a{
@@ -48,6 +48,4 @@
   color: inherit;
   font-size: 1.4em;
   text-align: center;
-  align-items: center;
-
 }
