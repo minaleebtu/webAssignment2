@@ -4,9 +4,14 @@
 	width: 100%;
 	margin-top: -0.5%;
 	padding-bottom: 0;
-	height: 45px;
 	overflow: hidden;
 }
+
+.programTitle h2 {
+	padding-top: 43px;
+	padding-bottom: 13px;
+}
+
 
 .container, .prt_container {
   width: 100%;
