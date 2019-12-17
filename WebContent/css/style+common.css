@@ -123,9 +123,9 @@ footer {
 	padding: 16px;
 }
 
-.icon-bar a:hover {
-	background-color: #2E2EFE;
-}
+/* .icon-bar a:hover { */
+/* 	background-color: #2E2EFE; */
+/* } */
 
 .facebook {
 	background-image: url("../images/facebook.svg");
