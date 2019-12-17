@@ -30,18 +30,25 @@
 	</section>
     <section class="container">
       <div class="description">
-        <p>Our best doctors are waiting for you.</p>
-        <form>
-          <input type="button" class="pediatrician" onclick="./doctorList.html" value="Pediatrician" />
-          <input type="button" class="rheumatologist" onclick="./doctorList.html" value="Rheumatologist" />
-          <input type="button" class="psychiatrist" onclick="./doctorList.html" value="Psychiatrist" />
-          <input type="button" class="surgeon" onclick="./doctorList.html" value="Surgeon" />
-          <input type="button" class="opthalmologist" onclick="./doctorList.html" value="Opthalmologist" />
-          <input type="button" class="cardiologist" onclick="./doctorList.html" value="Cardiologist" />
-          <input type="button" class="dermatologist" onclick="./doctorList.html" value="Dermatologist" />
-          <input type="button" class="radiologist" onclick="./doctorList.html" value="Radiologist" />
-          <input type="button" class="oncologist" onclick="./doctorList.html" value="Oncologist" />
-        </form>
+        <p id="intro">Our best doctors are waiting for you.</p>
+        <div class="button-container">
+          <div class="row1">
+            <div class="cell" onclick="loadDoc()"><a href="./doctorList.html" class="pediatrician" >Pediatrician</a></div>
+            <div class="cell" onclick="loadDoc()"><a href="./doctorList.html" class="rheumatologist" >Rheumatologist</a></div>
+            <div class="cell" onclick="loadDoc()"><a href="./doctorList.html" class="psychiatrist" >Psychiatrist</a></div>
+          </div>
+          <div class="row1">
+            <div class="cell" onclick="loadDoc()"><a href="./doctorList.html" class="surgeon" >Surgeon</a></div>
+            <div class="cell" onclick="loadDoc()"><a href="./doctorList.html" class="opthalmologist" >Opthalmologist</a></div>
+            <div class="cell" onclick="loadDoc()"><a href="./doctorList.html" class="cardiologist" >Cardiologist</a></div>
+          </div>
+          <div class="row1">
+            <div class="cell" onclick="loadDoc()"><a href="./doctorList.html" class="dermatologist" >Dermatologist</a></div>
+            <div class="cell" onclick="loadDoc()"><a href="./doctorList.html" class="radiologist" >Radiologist</a></div>
+            <div class="cell" onclick="loadDoc()"><a href="./doctorList.html" class="oncologist"> Oncologist</a> </div>
+          </div>
+      </div>
+    </div>
     </section>
     <footer>
         <div class="foo_nav">
