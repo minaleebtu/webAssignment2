@@ -1,8 +1,9 @@
 .serviceTitle{
 	background-color: #E6F0FF;
-	text-align: center;
-	margin-top: -1%;
 	width: 100%;
+	text-align: center;
+	margin-top: -0.5%;
+	padding-bottom: 0;
 }
 
 .container {
