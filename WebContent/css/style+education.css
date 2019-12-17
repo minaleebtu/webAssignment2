@@ -37,9 +37,12 @@
 	margin-top: 1.5%;
 	margin-left: 2%;
 	margin-right:2%;
-	margin-bottom: 5%;
+	margin-bottom: 2%;
 }
 
+.program{
+	margin-bottom: 5%;
+}
 #education_program {
   margin-top: 1%;
   margin-bottom: 0.5%;
