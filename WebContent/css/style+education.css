@@ -3,12 +3,9 @@
 	background-color: #E6F0FF;
 	width: 100%;
 	margin-top: 0;
-	}
-.programTitle > h2{
-	padding-top: 8px;
-	padding-bottom: 8px;
+	height: 50px;
 }
-	
+
 .container, .prt_container {
   position: fixed;
   width: 90%;

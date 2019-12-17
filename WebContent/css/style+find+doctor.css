@@ -3,12 +3,9 @@
 	background-color: #E6F0FF;
 	width: 100%;
 	margin-top: 0;
+	height: 50px;
 }
 
-.serviceTitle > h2{
-	padding-top: 8px;
-	padding-bottom: 8px;
-}
 .description{
   margin-left: 5%;
   margin-right: 5%;
