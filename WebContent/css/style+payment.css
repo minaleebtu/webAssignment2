@@ -3,11 +3,13 @@
 	width: 100%;
 	text-align: center;
 	margin-top: -0.5%;
-	padding-bottom: -0.5%;
 	margin-bottom: -3%;
 	overflow: hidden;
 }
 
+.serviceTitle > h2{
+	padding-bottom: -1.5%;
+}
 .container {
   width: 99%;
   height: 80%;

@@ -3,10 +3,12 @@
 	background-color: #E6F0FF;
 	width: 100%;
 	margin-top: -0.5%;
-	padding-bottom: -3%;
-	margin-bottom: -1.5%;
+	margin-bottom: -3%;
 	overflow: hidden;
 }
+
+.serviceTitle > h2{
+	padding-bottom: -1.5%;}
 
 
 .description{
