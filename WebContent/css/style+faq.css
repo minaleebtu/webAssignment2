@@ -25,6 +25,12 @@
 	margin-top: -0.5%;
 	padding-bottom: 0;
 }
+
+.faqTitle h2 {
+	padding-top: 43px;
+	padding-bottom: 13px;
+}
+
 	
 .panelbox{display: inline-block;}
 
