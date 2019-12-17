@@ -1,3 +1,13 @@
+.serviceTitle{
+	background-color: #E6F0FF;
+	text-align: center;
+	margin-top: 0;
+}
+
+.serviceTitle > h2{
+	padding-top: 43px;
+	padding-bottom: 13px;
+}
 
 .container {
   position: fixed;
@@ -10,9 +20,7 @@
   background-color: white;
  
 }
-.serviceTitle{
-	background-color: #E6F0FF;
-}
+
 .buttoncontainer{
   width: 100%;
   display: grid;

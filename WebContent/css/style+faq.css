@@ -2,7 +2,7 @@
   margin-bottom:2%;
   margin-left: 2%;
   margin-right: 2%;
-  width: 100%;
+  width: 90%;
   background-color:white;
   border:1px solid transparent;
   text-align: justify;
@@ -12,7 +12,7 @@
   margin-bottom:12%;
   margin-left: 2%;
   margin-right: 2%;
-  width: 100%;
+  width: 90%;
   background-color:white;
   border:1px solid transparent;
   text-align: justify;
@@ -20,7 +20,15 @@
 
 .faqTitle{
 	background-color: #E6F0FF;
+	width: 100%;
+	text-align: center;
+	margin-top: 0;
 }
+.faqTitle > h2{
+	padding-top: 43px;
+	padding-bottom: 13px;
+	}
+	
 .panelbox{display: inline-block;}
 
 .panel-title{
