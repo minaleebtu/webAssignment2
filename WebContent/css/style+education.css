@@ -1,7 +1,7 @@
 
 .container, .prt_container {
   position: fixed;
-  width: 99%;
+  width: 90%;
   height: 80%;
   text-align: center;
   background-color: #A9E2F3;
@@ -9,7 +9,7 @@
 }
 
 .prt_container{
-  background-image: url("./nurse_1.jpg");
+  background-image: url("../images/nurse_1.jpg");
   background-position: right;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -25,9 +25,10 @@
   width: 80%;
   background-color: white;
 }
-#programTitle{
- 	background-color: #A9E2F3;
+.programTitle{
+ 	background-color: #E6F0FF;
 }
 #education_program, #prt_nursing{
   margin-top: 1%;
+  margin-bottom: 5%;
 }
