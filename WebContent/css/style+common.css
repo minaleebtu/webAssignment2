@@ -1,6 +1,10 @@
+@import
+	url('https://fonts.googleapis.com/css?family=Proza+Libre|Roboto&display=swap')
+	;
+
 * {
 	font-size: 17pt;
-	font-family: "Roboto", Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	overflow: auto;
 	scroll-behavior: smooth;
 }
@@ -38,6 +42,11 @@ header img {
 header h3, h4 {
 	margin: 5px 5px;
 	margin-right: 50px;
+	font-family: 'Proza Libre', sans-serif;
+}
+
+header h4 {
+	font-weight: lighter;
 }
 
 .menubar nav {
@@ -126,7 +135,6 @@ footer {
 /* .icon-bar a:hover { */
 /* 	background-color: #2E2EFE; */
 /* } */
-
 .facebook {
 	background-image: url("../images/facebook.svg");
 	color: white;
