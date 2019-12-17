@@ -8,7 +8,6 @@
 	overflow: hidden;
 }
 .container {
-  position: fixed;
   width: 100%;
   height: 80%;
   text-align: center;
