@@ -4,6 +4,8 @@
 	width: 100%;
 	margin-top: -0.5%;
 	padding-bottom: 0;
+	height: 83px;
+	overflow: hidden;
 }
 
 .description{
@@ -26,6 +28,7 @@
   grid-template-rows: repeat(3, 1fr);
   justify-content: center;
   overflow: hidden;
+  margin-top: 1%;
 }
 
 .row1{

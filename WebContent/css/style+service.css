@@ -4,6 +4,8 @@
 	text-align: center;
 	margin-top: -0.5%;
 	padding-bottom: 0;
+	height: 83px;
+	overflow: hidden;
 }
 
 .container {

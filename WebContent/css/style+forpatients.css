@@ -14,6 +14,8 @@
 	text-align: center;
 	width: 100%;
 	margin-top: 0;
+	height: 83px;
+	overflow: hidden;
 }
 
 .patientsTitle > h2{
