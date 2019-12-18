@@ -45,10 +45,11 @@
   /* For mobile phones: */
   [class*="container1"], [id*="description"] {
     width: 100%;
-    margin-bottom: 9%;
   }
   [class*="container"]{
-  width: 100%;}
+  width: 90%;
+  margin-bottom: 9%;
+  }
   [id*="description"]{
   border:transparent;
   border-radius: unset;}
