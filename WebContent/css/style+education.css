@@ -22,7 +22,6 @@
   	padding-right: 2%;
   	padding-bottom: 0;
   	width: 90%;
-  	height: 90%;
 }
 
 #description{
@@ -46,5 +45,11 @@
   /* For mobile phones: */
   [class*="container1"], [id*="description"] {
     width: 100%;
+    margin-bottom: 9%;
   }
+  [class*="container"]{
+  width: 100%;}
+  [id*="description"]{
+  border:transparent;
+  border-radius: unset;}
 }
