@@ -6,6 +6,30 @@
 	padding-bottom: 8%;
 }
 
+@media only screen and (max-width: 700px) {
+	.container {
+		padding-bottom: 12%;
+	}
+}
+
+@media only screen and (max-width: 610px) {
+	.container {
+		padding-bottom: 20%;
+	}
+}
+
+@media only screen and (max-width: 510px) {
+	.container {
+		padding-bottom: 35%;
+	}
+}
+
+@media only screen and (max-width: 410px) {
+	.container {
+		padding-bottom: 60%;
+	}
+}
+
 .videoTitle {
 	text-align: center;
 	background-color: #E6F0FF;
@@ -46,17 +70,8 @@
 	display: block;
 	background-color: #0072bc;
 	color: white;
-	/* 	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3); */
 	cursor: pointer;
 	color: white;
-	/* 	text-transform: uppercase; */
-}
-
-.accordion ul li label:hover, .accordion [type=radio]:checked ~ label,
-	.accordion [type=checkbox]:checked ~ label {
-	/* 	background: #C02942; */
-	/* 	color: #FFF; */
-	
 }
 
 .accordion .content {
@@ -65,11 +80,9 @@
 }
 
 .accordion p {
-	/* 	color: #333; */
 	margin: 0 0 10px;
 }
 
-/* Vertical */
 .accordion ul li {
 	overflow: hidden;
 	margin: 0 0 1px;
@@ -77,12 +90,6 @@
 
 .accordion ul li label {
 	padding: 10px;
-}
-
-.accordion [type=radio]:checked ~ label, .vertical [type=checkbox]:checked 
-	 ~ label {
-	/* 		border-bottom: 0; */
-	
 }
 
 .accordion ul li label:hover {
@@ -93,18 +100,20 @@
 .accordion ul li .content {
 	overflow: auto;
 	height: 0px;
-	/* 		border-top: 0; */
 }
 
 .accordion [type=radio]:checked ~ label ~ .content, .accordion [type=checkbox]:checked 
 	 ~ label ~ .content {
-	height: 300px;
-	/* 	border: 1px solid #542437; */
+	height: 100%;
+	background-color: #E6F0FF;
 }
 
 .content>p {
 	padding-top: 3%;
-	padding-left: 12%;
+	padding-bottom: 3%;
+	padding-left: 7%;
+	padding-right: 5%;
+	font-size: 14pt;
 }
 
 .videoContainer {
@@ -115,5 +124,5 @@
 }
 
 video {
-	width: 70%;
+	width: 60%;
 }
