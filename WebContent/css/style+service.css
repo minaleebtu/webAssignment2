@@ -35,17 +35,18 @@
   margin-left: 0.5%;
   margin-right: 2%;
   font-weight: bold;
-  align-items: center;
-  justify-content: center;
   width: 21%;
 }
 
 .button > a{
+	display: inline-grid;
  overflow-x: hidden;
   text-decoration: none;
   color: inherit;
   font-size: 1.4em;
   font-weight: bold;
+    align-items: center;
+  justify-content: center;
 }
 
 .button:hover{
