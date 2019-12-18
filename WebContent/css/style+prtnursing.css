@@ -20,3 +20,9 @@
 .prtnursing{
   text-align: justify;
  }
+ #prt_nursing1{
+ margin-bottom: 5%;
+ }
+#prt_nursing1 > strong{
+	font-style: italic;
+}
