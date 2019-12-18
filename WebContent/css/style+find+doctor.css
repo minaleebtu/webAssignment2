@@ -1,12 +1,12 @@
 .serviceTitle{
 	text-align: center;
 	background-color: #E6F0FF;
-	width: 100%;
-	margin-top: -0.5%;
-	height: 60px;
-	overflow: hidden;
+	height: 2em;
 }
-
+.serviceTitle > h2{
+	margin: 0;
+	padding-top: 0.3em;
+}
 .description{
   margin-left: 5%;
   margin-right: 5%;

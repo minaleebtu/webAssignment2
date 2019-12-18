@@ -10,14 +10,14 @@
 }
 
 .patientsTitle{
-	background-color: #E6F0FF;
 	text-align: center;
-	width: 100%;
-	margin-top: -0.5%;
-	height: 60px;
-	overflow: hidden;
+	background-color: #E6F0FF;
+	height: 2em;
 }
-
+.patientsTitle > h2{
+	margin: 0;
+	padding-top: 0.3em;
+}
 .button-container{
   width: 80%;
   justify-content: center;

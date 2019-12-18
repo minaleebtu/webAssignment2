@@ -18,14 +18,14 @@
 }
 
 .faqTitle{
-	background-color: #E6F0FF;
-	width: 100%;
 	text-align: center;
-	margin-top: -0.5%;
-	height: 60px;
-	overflow: hidden;
+	background-color: #E6F0FF;
+	height: 2em;
 }
-
+.faqTitle > h2{
+	margin: 0;
+	padding-top: 0.3em;
+}
 .panelbox{display: inline-block;}
 
 .panel-title{
