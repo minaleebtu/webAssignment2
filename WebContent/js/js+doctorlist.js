@@ -13,12 +13,12 @@ function myFunction(xml) {
 	var xmlDoc = xml.responseXML;
 
 	var nameCont = "";
-  var deptNameCont = "";
+	var deptNameCont = "";
 
-  var nameList = document.getElementById("nameList");
+	var nameList = document.getElementById("nameList");
 	var deptList = document.getElementById("deptList");
 
-  var name = xmlDoc.getElementsByTagName("name");
+	var name = xmlDoc.getElementsByTagName("name");
 	var deptName = xmlDoc.getElementsByTagName("department");
 
 	for (i = 0; i < deptName.length; i++) {
