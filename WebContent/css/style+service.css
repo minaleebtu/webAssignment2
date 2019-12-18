@@ -24,7 +24,7 @@
 }
 
 .button{
-  display: inline-block;
+  display: inline-grid;
   border: 3px solid #0B0B61;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -36,17 +36,16 @@
   margin-right: 2%;
   font-weight: bold;
   width: 21%;
+    align-items: center;
+  justify-content: center;
 }
 
 .button > a{
-	display: inline-grid;
- overflow-x: hidden;
+  overflow-x: hidden;
   text-decoration: none;
   color: inherit;
   font-size: 1.4em;
   font-weight: bold;
-    align-items: center;
-  justify-content: center;
 }
 
 .button:hover{
