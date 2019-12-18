@@ -1,6 +1,5 @@
 .description{
-  margin-left: 5%;
-  margin-right: 5%;
+ margin: 0 auto;
   margin-top: 2%;
   margin-bottom: 13%;
   width: 80%;
@@ -23,9 +22,7 @@
   justify-content: center;
   overflow: hidden;
   margin-top: 3%;
-  margin-left: 3%;
-  margin-right: 3%;
-  align-items: center;
+   align-items: center;
   padding-bottom: 3%;
 }
 

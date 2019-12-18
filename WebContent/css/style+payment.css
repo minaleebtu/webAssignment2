@@ -18,10 +18,9 @@
 
 
 .description{
+	margin: 0 auto;
   text-align: justify;
   margin-top: 4%;
-  margin-left: 5%;
-  margin-right: 5%;
   padding-left: 2%;
   padding-right: 2%;
   margin-bottom: 12%;
