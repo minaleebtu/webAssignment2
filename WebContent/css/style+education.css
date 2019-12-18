@@ -37,15 +37,12 @@
   margin-top: 1%;
   margin-bottom: 0.5%;
 }
-#col1{width: 24%;}
-#col2{width: 22%;}
+#col1, #col2{width: 25%;}
 
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  [class*="container1"], [id*="description"] {
-    width: 100%;
-  }
+  [class*="container1"], [id*="description"] {width: 100%;}
   [class*="container"]{
   width: 90%;
   margin-bottom: 9%;
@@ -53,4 +50,4 @@
   [id*="description"]{
   border:transparent;
   border-radius: unset;}
-}
+  [id *= "col1"], [id*="col2"], [id*="col3"]{border-bottom: 3px solid #0B0B61;}
