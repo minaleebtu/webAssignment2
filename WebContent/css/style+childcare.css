@@ -46,7 +46,9 @@
     border: transparent;
     border-radius: unset;
 	margin-bottom: 10%;
+	float: unset;
   }
   .container {
-    background-color: transparent;
+    background-image: unset;
+    width: 90%;
 }
