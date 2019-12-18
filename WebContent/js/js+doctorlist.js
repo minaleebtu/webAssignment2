@@ -22,9 +22,9 @@ function myFunction(xml) {
 	var deptName = xmlDoc.getElementsByTagName("department");
 
 	for (i = 0; i < deptName.length; i++) {
-    nameCont += "<td>" + name[i].childNodes[0].nodeValue + "</td>";
-		deptNameCont += "<td>" + deptName[i].childNodes[0].nodeValue + "</td>";
+    nameCont += name[i].childNodes[0].nodeValue;
+	deptNameCont += deptName[i].childNodes[0].nodeValue;
 	}
-  document.getElementById("nameList").innerHTML = nameCont;
+	document.getElementById("nameList").innerHTML = nameCont;
 	document.getElementById("deptList").innerHTML = deptNameCont;
 }
