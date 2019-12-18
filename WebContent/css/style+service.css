@@ -7,10 +7,6 @@
 	overflow: hidden;
 }
 
-.serviceTitle >h2{
-	padding-bottom: -2%;
-}
-
 .container {
   width: 90%;
   height: 80%;
@@ -54,7 +50,6 @@
 }
 
 .button > a:hover{
-  overflow-x: hidden;
-  text-decoration: none;
-  color: inherit;
+  color: white;
+  background-color: #0B0B61;
 }
