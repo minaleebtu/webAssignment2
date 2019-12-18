@@ -23,7 +23,7 @@ function myFunction(xml) {
 
 	for (i = 0; i < deptName.length; i++) {
     nameCont += name[i].childNodes[0].nodeValue;
-		deptNameCont += deptName[i].childNodes[0].nodeValue;
+	deptNameCont += deptName[i].childNodes[0].nodeValue;
 	}
 	document.getElementById("nameList").innerHTML = nameCont;
 	document.getElementById("deptList").innerHTML = deptNameCont;
