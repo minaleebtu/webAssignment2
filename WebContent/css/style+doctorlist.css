@@ -24,9 +24,9 @@
   	padding-top: 1%;
   	overflow: hidden;
   	width: 49%;
-  	border-bottom: 1px solid black;
 }
 
 p{
 	text-align: justify;
+	border-bottom: 1px solid black;
 }
