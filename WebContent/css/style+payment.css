@@ -74,3 +74,11 @@
   background-image: url("../images/euro.svg");
   background-repeat: no-repeat;
 }
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="description"] {
+    width: 100%;
+  }
+}
