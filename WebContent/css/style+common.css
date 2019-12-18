@@ -26,7 +26,7 @@ header {
 	margin: 0 auto;
 	padding-top: 5px;
 	width: 100%;
-	height: 80px;
+/* 	height: 80px; */
 	background-color: #CEE3F6;
 	text-align: right;
 	font-size: 25px;
@@ -49,20 +49,20 @@ header h4 {
 	font-weight: lighter;
 }
 
-.menubar nav {
+.menubar {
 	float: left;
 	width: 100%;
 	background-color: #0B0B61;
 }
 
-.menubar nav ul {
+.menubar ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
 
-.menubar nav ul li {
+.menubar ul li {
 	list-style: none;
 	float: left;
 	line-height: 50px;
@@ -70,7 +70,7 @@ header h4 {
 	text-align: center;
 }
 
-.menubar nav li a {
+.menubar li a {
 	color: white;
 	display: block;
 	text-align: center;
@@ -81,7 +81,7 @@ header h4 {
 	width: 130px;
 }
 
-.menubar nav li a:hover {
+.menubar li a:hover {
 	background-color: #111;
 }
 
