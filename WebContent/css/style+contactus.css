@@ -25,6 +25,10 @@
 	margin-top: 1em;
 }
 
+.linkButton {
+	height: 1.5em;
+}
+
 .linkButton, .contactContainer {
 	display: flex;
 	justify-content: center;
@@ -37,6 +41,10 @@
 	text-align: center;
 }
 
+.address strong {
+	color: #0B0B61;
+}
+
 .phone p {
 	padding-top: 1.5em;
 }
@@ -47,19 +55,18 @@
 }
 
 .email>p>a {
-	/* 	text-decoration: none; */
 	color: #0B0B61;
 }
 
-.linkButton>div {
-	display: block;
-	margin: 20px;
-	background-color: #0B0B61;
-}
-
-.phoneDirectory a, .videoLibrary a {
+.phoneDirectory, .videoLibrary {
+	padding-left: 0.5em;
+	padding-right: 0.5em; display : block;
 	color: white;
 	font-size: 1em;
 	font-weight: bold;
 	text-decoration: none;
+	background-color: #0B0B61;
+	color: white;
+	margin-right: 1em;
+	display: block;
 }
