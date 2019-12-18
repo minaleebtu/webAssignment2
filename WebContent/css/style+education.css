@@ -9,8 +9,7 @@
 }
 .container {
   width: 60%;
-  text-align: center;
-  align-items: center;
+  text-align: justify;
   margin: 0 auto;
 }
 
@@ -18,7 +17,7 @@
 	margin-top: 1.5%;
 	border: 3px solid #0B0B61;
   	border-radius: 10px; 
-  	margin-bottom: 5%;
+  	margin-bottom: 8%;
   	padding-left: 2%;
   	padding-right: 2%;
   	padding-bottom: 0;
@@ -33,7 +32,7 @@
 }
 
 .program{
-	margin-bottom: 4%;
+	margin-bottom: 8%;
 }
 #education_program {
   margin-top: 1%;
