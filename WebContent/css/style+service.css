@@ -23,9 +23,7 @@
 }
 
 .img{
-	display: block;
-	float: right;
-	margin-top: -8%;
+	padding-bottom: 0;
 }
 
 .buttoncontainer{
