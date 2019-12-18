@@ -47,6 +47,8 @@
   color: inherit;
   font-size: 1.4em;
   text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .button:hover{
