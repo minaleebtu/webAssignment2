@@ -41,9 +41,11 @@
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="description"] {
-    width: 100%;
+    width: 90%;
     margin: 0;
     border: transparent;
+    border-radius: unset;
+	margin-bottom: 10%;
   }
   .container {
     background-color: transparent;
