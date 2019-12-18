@@ -22,8 +22,8 @@ function myFunction(xml) {
 	var deptName = xmlDoc.getElementsByTagName("department");
 
 	for (i = 0; i < deptName.length; i++) {
-    nameCont += name[i].childNodes[0].nodeValue;
-	deptNameCont += deptName[i].childNodes[0].nodeValue;
+		nameCont += "<p>" + name[i].childNodes[0].nodeValue + "</p>";
+		deptNameCont += "<p>" + deptName[i].childNodes[0].nodeValue + "</p>";
 	}
 	document.getElementById("nameList").innerHTML = nameCont;
 	document.getElementById("deptList").innerHTML = deptNameCont;
