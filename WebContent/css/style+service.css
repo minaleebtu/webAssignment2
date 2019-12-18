@@ -7,6 +7,7 @@
 	margin: 0;
 	padding-top: 0.3em;
 }
+
 .container {
   margin:0 auto;
   width: 90%;
@@ -15,17 +16,26 @@
   overflow: hidden;
   padding: 0.5%;
 }
+
 .description{
-	background-image: url("../images/nurse.svg");
-	background-position: bottom;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+	display: inline-grid;
+	align-content: center;
 }
+
+.img{
+	display: block;
+	float: right;
+	margin-top: -8%;
+}
+
 .buttoncontainer{
   width: 100%;
   margin-bottom: 5%;
-  float: center;
   margin-top: 7%;
+  display: flex;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  align-content: center;
 }
 
 .button{
@@ -40,7 +50,7 @@
   margin-left: 0.5%;
   margin-right: 2%;
   font-weight: bold;
-  width: 21%;
+  width: 30%;
   align-items: center;
   justify-content: center;
 }
