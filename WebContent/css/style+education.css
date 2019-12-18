@@ -39,6 +39,12 @@
   margin-bottom: 0.5%;
 }
 #col1{width: 24%;}
-#col2{
-	width: 33%;
+#col2{width: 22%;}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="container1"], [id*="description"] {
+    width: 100%;
+  }
 }

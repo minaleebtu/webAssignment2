@@ -36,3 +36,18 @@
 #hospitalization{
   margin-top: 1%;
 }
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="description"] {
+    width: 100%;
+  }
+}
+
+/* For width 400px and smaller: */
+@media only screen and (max-width: 400px) {
+  .container {
+    background-color: transparent;
+  }
+}
