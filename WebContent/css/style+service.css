@@ -52,3 +52,9 @@
   font-size: 1.4em;
   text-align: center;
 }
+
+.button > a:hover{
+  overflow-x: hidden;
+  text-decoration: none;
+  color: inherit;
+}
