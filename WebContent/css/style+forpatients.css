@@ -45,7 +45,7 @@
 #intro1{
   text-align:center;
   width: 100%;
-  font-size: 0.8em;
+  font-size: 0.7em;
   margin-bottom: 5%;
   margin-top: 5%;
   padding-top: 0.2em;
@@ -69,5 +69,5 @@
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="buttoncontainer"] {width: 100%;}
-  [id="intro1"]{ font-size: 0.6em;}
+  [id*="intro1"]{ width: 95%;}
 }
