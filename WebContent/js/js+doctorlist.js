@@ -5,7 +5,7 @@ window.onload = function loadXMLDoc() {
 			myFunction(this);
 		}
 	};
-	xmlhttp.open("GET", "../xml/doctorlist.xml", true);
+	xmlhttp.open("GET", "../xml/doctorList.xml", true);
 	xmlhttp.send();
 };
 
