@@ -1,61 +1,61 @@
 <List>
   <doctor>
     <name>Maren Piksa</name>
-    <department>Pediatrician</department>
+    <department>Accident and emergency</department>
   </doctor>
 
   <doctor>
     <name>Paula Andree</name>
-    <department>Pediatrician</department>
+    <department>Pharmacy</department>
   </doctor>
 
   <doctor>
     <name>Christin Theiss</name>
-    <department>Rheumatologist</department>
+    <department>General Services</department>
   </doctor>
 
   <doctor>
     <name>Rebecca Gries</name>
-    <department>Rheumatologist</department>
+    <department>Cardiology</department>
   </doctor>
 
   <doctor>
     <name>Tatjana Heiderhoff</name>
-    <department>Psychiatrist</department>
+    <department>Cardiology</department>
   </doctor>
 
   <doctor>
     <name>Noah Aumüller</name>
-    <department>Surgeon</department>
+    <department>Ophthalmology</department>
   </doctor>
 
   <doctor>
     <name>Hugo Kudla</name>
-    <department>Surgeon</department>
+    <department>Ophthalmology</department>
   </doctor>
 
   <doctor>
     <name>Larissa Dallagrazia</name>
-    <department>cardiologist</department>
+    <department>Otolaryngology</department>
   </doctor>
 
   <doctor>
     <name>Ines Deppe</name>
-    <department>Opthalmologist</department>
+    <department>Breast Screening</department>
   </doctor>
 
   <doctor>
     <name>Eberhard Seesink</name>
-    <department>Dermatologist</department>
+    <department>Radiology</department>
   </doctor>
 
   <doctor>
     <name>Bernhard Röder</name>
-    <department>Radiologist</department>
+    <department>Urology</department>
   </doctor>
 
   <doctor>
     <name>Margarethe Vielberth</name>
-    <department>Oncologist</department>
+    <department>Accident and emergency</department>
   </doctor>
 </List>
