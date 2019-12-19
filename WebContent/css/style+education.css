@@ -50,4 +50,8 @@
   [id*="description"]{
   border:transparent;
   border-radius: unset;}
-  [id *= "col1"], [id*="col2"], [id*="col3"]{border-bottom: 3px solid #0B0B61;}
+  [id *= "col1"], [id*="col2"], [id*="col3"]{
+  border-bottom: 3px solid #0B0B61;
+  }
+  p, td{font-size:0.8em;}
+}

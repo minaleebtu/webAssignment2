@@ -45,7 +45,8 @@
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  [class *="panel-title"]{font-size: 0.9em;}
+  h3{font-size:0.9em;}
+  [class *="panel-title"]{font-size: 0.8em;}
   p{font-size: 0.8em;}
   ul>li{font-size: 0.8em;}
   a{font-size:0.8em;}
