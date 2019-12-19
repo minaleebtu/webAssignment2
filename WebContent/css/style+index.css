@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1260px) {
+@media only screen and (max-width: 1279px) {
 	.container {
 		padding-bottom: 5%;
 	}
@@ -22,30 +22,35 @@
 	}
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 768px) {
 	.container {
 		padding-bottom: 15%;
 	}
 }
 
-@media only screen and (max-width: 607px) {
+@media only screen and (max-width: 400px) {
 	.container {
-		padding-bottom: 22%;
+		padding-bottom: 20%;
 	}
 }
 
-@media only screen and (max-width: 500px) {
-	.container {
-		padding-bottom: 30%;
-	}
-}
+/* @media only screen and (max-width: 730px) { */
+/* 	.container { */
+/* 		padding-bottom: 15%; */
+/* 	} */
+/* } */
 
-@media only screen and (max-width: 440px) {
-	.container {
-		padding-bottom: 60%;
-	}
-}
+/* @media only screen and (max-width: 607px) { */
+/* 	.container { */
+/* 		padding-bottom: 22%; */
+/* 	} */
+/* } */
 
+/* @media only screen and (max-width: 500px) { */
+/* 	.container { */
+/* 		padding-bottom: 30%; */
+/* 	} */
+/* } */
 .announce_title {
 	text-align: center;
 	background-color: #E6F0FF;
@@ -76,13 +81,16 @@
 	padding-top: 1%;
 	display: block;
 	width: 40%;
-	border: 1px solid red;
 	float: left;
 	border: 1px solid #CEE3F6;
 }
 
 .news1 {
 	margin-right: 1em;
+}
+
+.news1>p {
+	margin-top: 0.5em;
 }
 
 .news1>h2, .news2>h2 {
@@ -94,7 +102,6 @@
 	padding-left: 1em;
 	padding-right: 1em;
 	margin-bottom: 3%;
-	font-size: 16pt;
 }
 
 .map {
