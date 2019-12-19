@@ -230,3 +230,13 @@ div.copyright>span {
 	background-image: url("../images/youtube.svg");
 	color: white;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="copyright"]{font-size:0vw;}/*invisible*/
+  foo_nav{font-size:0vw;}/*pipe looks invisible*/
+  [class*="foo_nav"]>a{font-size:3vw;}
+  
+}

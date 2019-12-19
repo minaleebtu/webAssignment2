@@ -45,10 +45,10 @@
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  h3{font-size:0.9em;}
-  [class *="panel-title"]{font-size: 0.8em;}
-  p{font-size: 0.8em;}
-  ul>li{font-size: 0.8em;}
-  a{font-size:0.8em;}
+  h3{font-size:5vw;}
+  [class *="panel-title"]{font-size: 4vw;}
+  p{font-size: 4vw;}
+  ul>li{font-size: 4vw;}
+  a{font-size:4vw;}
   [class *="faqcontainer"],[class *="lastfaqcontainer"]{width: 95%;}
 }

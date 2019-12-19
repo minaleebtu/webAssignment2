@@ -70,8 +70,13 @@
 	font-size: 1em;
 	font-weight: bold;
 	text-decoration: none;
-	background-color: #0B0B61;
+  background-color: #0B0B61;
 	color: white;
 	margin-right: 1em;
 	display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="contactInfo"]{margin-bottom:28%;}
 }
