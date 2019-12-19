@@ -40,7 +40,5 @@ h2{background-color: #eeeeee;}
   /* For mobile phones: */
   [id*=policy]{
   margin-bottom:30%;}
-  [id*="DDP"]{font-size:5vw;}
-  p, h1, h2, a, ul>li{font-size:4vw;}
 }
 
