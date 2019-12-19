@@ -26,6 +26,20 @@
 	.container {
 		padding-bottom: 15%;
 	}
+	div.announce_title {
+		margin-bottom: 1em;
+	}
+	div.announcement {
+		display: unset;
+	}
+	div.announcement>div {
+		margin-left: 2em;
+		margin-right: 0;
+		width: 80%;
+	}
+	.news1 {
+		margin-bottom: 1em;
+	}
 }
 
 @media only screen and (max-width: 400px) {
