@@ -45,11 +45,6 @@
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  h3{font-size:5vw;}
-  [class *="panel-title"]{font-size: 4vw;}
-  p{font-size: 4vw;}
-  ul, ul>li{font-size: 4vw;}
-  a{font-size:4vw;}
   [class *="faqcontainer"],[class *="lastfaqcontainer"]{width: 95%;}
   [class *="lastfaqcontainer"]{margin-bottom:28%;}
 }
