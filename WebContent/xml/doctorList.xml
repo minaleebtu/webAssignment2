@@ -1,12 +1,12 @@
 <List>
   <doctor>
     <name>Maren Piksa</name>
-    <department>Accident & emergency</department>
+    <department>Accident &amp; emergency</department>
   </doctor>
   
    <doctor>
     <name>Margarethe Vielberth</name>
-    <department>Accident & emergency</department>
+    <department>Accident &amp; emergency</department>
   </doctor>
   
   <doctor>
