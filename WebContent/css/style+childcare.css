@@ -39,9 +39,6 @@
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  [class*="serviceTitle"]>h2{
-  font-size:4vw;
-  }
   [class*="description"] {
     width: 90%;
     border: transparent;
@@ -52,7 +49,5 @@
     background-image: unset;
     width: 90%;
     margin-bottom: 28%;
-   }
-  p{font-size:4vw;}
-    
+   }    
 }
