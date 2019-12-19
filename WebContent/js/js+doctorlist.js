@@ -11,20 +11,29 @@ window.onload = function loadXMLDoc() {
 
 function myFunction(xml) {
 	var xmlDoc = xml.responseXML;
-
-	var nameCont = "";
-	var deptNameCont = "";
-
+	var doclist = document.getElementById("doclist");
+	
+	var docName = xmlDoc.getElementsByTagName("name");
+	var deptName = xmlDoc.getElementsByTagName("department");
+	
 	var nameList = document.getElementById("nameList");
 	var deptList = document.getElementById("deptList");
-
-	var name = xmlDoc.getElementsByTagName("name");
-	var deptName = xmlDoc.getElementsByTagName("department");
-
+	
+	
+	var th = doclist.appendChild(document.createElement('TH'));
+	th.setAttribute('id', 'nameList');
+	document.getElementById('nameList').appendChild(
+			document.createTextNode('Name'));
+	
+	var th = doclist.appendChild(document.createElement('TH'));
+	th.setAttribute('id', 'deptList');
+	document.getElementById('deptList').appendChild(
+			document.createTextNode('Department'));
+	
 	for (i = 0; i < deptName.length; i++) {
-		nameCont += "<p>" + name[i].childNodes[0].nodeValue + "</p>";
-		deptNameCont += "<p>" + deptName[i].childNodes[0].nodeValue + "</p>";
+		document.getElementById("doclist").innerHTML += "<tr><td>"
+				+ docName[i].childNodes[0].nodeValue + "</td><td>"
+				+ deptName[i].childNodes[0].nodeValue + "</td></tr>";
 	}
-	document.getElementById("nameList").innerHTML = nameCont;
-	document.getElementById("deptList").innerHTML = deptNameCont;
+
 }
