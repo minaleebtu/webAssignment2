@@ -40,6 +40,9 @@
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+  [class*="programTitle"]>h2{
+  font-size:0.8em;
+  }
   [class*="description"] {
     width: 90%;
     margin: 0;
@@ -52,4 +55,7 @@
     background-image: unset;
     width: 90%;
     margin-bottom: 3%;
+   }
+  p{font-size:0.8em;}
+    
 }

@@ -78,7 +78,7 @@
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="description"] {
-    width: 90%;
+    width: 80%;
   }
   [id*="pay1"], ul>li{font-size: 0.8em;}
   h1{font-size: 0.9em;}
