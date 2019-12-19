@@ -77,5 +77,5 @@
   /* For mobile phones: */
    [class*="description"]{margin-bottom: 28%;}
    [class*="button-container"]{display:unset;}
-   [class*="col1"]{display:inline list-item;}
+   [class*="col1"]{display:inline list-item; list-style: none;}
 }

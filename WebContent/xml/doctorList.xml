@@ -1,9 +1,14 @@
 <List>
   <doctor>
     <name>Maren Piksa</name>
-    <department>Accident and emergency</department>
+    <department>Accident &amp; emergency</department>
   </doctor>
-
+  
+   <doctor>
+    <name>Margarethe Vielberth</name>
+    <department>Accident &amp; emergency</department>
+  </doctor>
+  
   <doctor>
     <name>Paula Andree</name>
     <department>Pharmacy</department>
@@ -52,10 +57,5 @@
   <doctor>
     <name>Bernhard Röder</name>
     <department>Urology</department>
-  </doctor>
-
-  <doctor>
-    <name>Margarethe Vielberth</name>
-    <department>Accident and emergency</department>
   </doctor>
 </List>
