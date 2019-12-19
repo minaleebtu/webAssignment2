@@ -21,7 +21,6 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
   justify-content: center;
   overflow: hidden;
   margin-top: 1%;
@@ -72,4 +71,7 @@
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
    a{font-size:4vw;}
+   [class*="description"]{margin-bottom: 28%;}
+   [class*="button-container"]{display:unset;}
+   [class*="col1"]{display:inline list-item;}
 }
