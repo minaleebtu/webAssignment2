@@ -231,11 +231,16 @@ div.copyright>span {
 	color: white;
 }
 
-
-
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="copyright"]{font-size:0vw;}/*invisible*/
-  [class*="foo_nav"]>a{font-size:3vw;}/*È°¼ºÈ­½ÃÅ°·Á¸é aÅÂ±× ÆùÆ® ¼³Á¤À» Áö¿ö¾ßÇÔ*/
-  /*¾Æ´Ï¸é ±×³É footer height¸¦ 5%·Î·Î ÁÖ°í ¾Æ¿¹ ¾Æ¹«°Íµµ Ç¥½Ã ¾ÈµÇ°Ô ÇÒ ¼öµµ??*/
+	/* For mobile phones: */
+	[class*="copyright"] {
+		font-size: 0vw;
+	} /*invisible*/
+	[class*="foo_nav"]>a {
+		font-size: 3vw;
+	} /*È°ï¿½ï¿½È­ï¿½ï¿½Å°ï¿½ï¿½ï¿½ï¿½ aï¿½Â±ï¿½ ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
+	/*ï¿½Æ´Ï¸ï¿½ ï¿½×³ï¿½ footer heightï¿½ï¿½ 5%ï¿½Î·ï¿½ ï¿½Ö°ï¿½ ï¿½Æ¿ï¿½ ï¿½Æ¹ï¿½ï¿½Íµï¿½ Ç¥ï¿½ï¿½ ï¿½ÈµÇ°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½??*/
+	* {
+		font-size: 1em;
+	}
 }
