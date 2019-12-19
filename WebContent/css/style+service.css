@@ -1,3 +1,8 @@
+.menubar > #service{
+	color: white;
+  	background-color: #0B0B61;
+}
+
 .serviceTitle{
 	text-align: center;
 	background-color: #E6F0FF;
