@@ -34,7 +34,6 @@
 .exempted{
   overflow: hidden;
   margin: 0;
-  padding: 1 1 1 1;
 }
 
 .payoption {
@@ -79,6 +78,8 @@
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="description"] {
-    width: 100%;
+    width: 90%;
   }
+  [id*="pay1"], ul>li{font-size: 0.8em;}
+  h1{font-size: 0.9em;}
 }

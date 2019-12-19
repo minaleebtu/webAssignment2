@@ -69,5 +69,8 @@
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="buttoncontainer"] {width: 100%;}
-  [id*="intro1"]{ width: 95%;}
+  [id*="intro1"]{ 
+  width: 95%;
+  font-size:0.7em;
+  }
 }
