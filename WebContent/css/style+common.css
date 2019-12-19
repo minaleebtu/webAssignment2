@@ -236,7 +236,6 @@ div.copyright>span {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="copyright"]{font-size:0vw;}/*invisible*/
-  foo_nav{font-size:0vw;}/*pipe looks invisible*/
-  [class*="foo_nav"]>a{font-size:3vw;}
-  
+  [class*="foo_nav"]>a{font-size:3vw;}/*활성화시키려면 a태그 폰트 설정을 지워야함*/
+  /*아니면 그냥 footer height를 5%로로 주고 아예 아무것도 표시 안되게 할 수도??*/
 }
