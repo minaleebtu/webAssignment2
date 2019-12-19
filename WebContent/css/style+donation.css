@@ -69,7 +69,7 @@
 }
 
 .donate_chk>div {
-	width: 60%;
+	width: 70%;
 }
 
 #amount_chk, #amount_chk>span {
@@ -103,9 +103,31 @@ button:hover {
 	background-color: #0431B4;
 }
 
-
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="donationInfo"]{margin-bottom:28%;}
-  
+	/* For mobile phones: */
+	[class*="donationInfo"] {
+		margin-bottom: 28%;
+		width: 70%;
+	}
+	.donate_amount {
+		padding-top: 1%;
+		display: grid;
+	}
+	.donate_amount>button, .donate_btn>button, .reset_btn>button {
+		padding-left: 1em;
+		padding-right: 1em;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+	}
+	.imgcontainer {
+		padding-top: 1%;
+		display: grid;
+		justify-content: center;
+	}
+	/* 	.imgcontainer>img { */
+	/* 		width: 13em; */
+	/* 	} */
+}
+
+@media only screen and (max-width: 716px) {
 }
