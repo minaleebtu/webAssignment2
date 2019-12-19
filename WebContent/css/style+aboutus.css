@@ -49,3 +49,11 @@ ul.historyList li {
 video {
 	width: 40%;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="container"]{margin-bottom:28%;}
+  [class*="aboutus"]{font-size:5vw;}
+   ul>li{font-size:4vw;}
+   video{width:70%;}
+}

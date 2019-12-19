@@ -34,3 +34,13 @@ h2{background-color: #eeeeee;}
 }
 
 #DPO, #caution{font-size: 1em;}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [id*=policy]{
+  margin-bottom:30%;}
+  [id*="DDP"]{font-size:5vw;}
+  p, h1, h2, a, ul>li{font-size:4vw;}
+}
+

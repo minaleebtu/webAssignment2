@@ -68,9 +68,13 @@
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  [class*="buttoncontainer"] {width: 100%;}
-  [id*="intro1"]{ 
-  width: 95%;
-  font-size:0.7em;
+  [class*="container"]{margin-bottom:28%;}
+  [class*="buttoncontainer"] {
+  width: 100%;
+  margin-bottom: 28%;
   }
+  [class*="cell"]{width: 80%;}
+  a{font-size:4vw;}
+  p{font-size:4vw;}
+  h1{font-size:5vw;}
 }

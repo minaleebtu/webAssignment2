@@ -52,3 +52,10 @@
 .phoneList>div>p:FIRST-CHILD {
 	margin: 0%;
 }
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="phonedir"]{margin-bottom:30%;}
+  
+}
