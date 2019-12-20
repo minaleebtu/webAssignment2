@@ -30,6 +30,10 @@
 }
 
 #phonedir_tab>tbody>tr>td:nth-child(2) {
+	border-left: 1px solid #0072bc;
+	border-right: 1px solid #0072bc;
+	padding-left: 0.3em;
+	padding-right: 0.3em;
 	text-align: center;
 }
 
@@ -42,6 +46,7 @@
 
 #phonedir_tab>tbody>tr>td {
 	padding: 0.5em;
+	border-bottom: 1px solid #0072bc;
 }
 
 @media only screen and (max-width: 768px) {
@@ -52,17 +57,10 @@
 	}
 	#phonedir_tab>tbody>tr>td {
 		padding: 0;
-		border-bottom: 1px solid #0072bc;
 	}
 	#phonedir_tab>tbody>tr>th {
 		padding: 0;
 		padding-left: 0;
 		padding-right: 0;
-	}
-	#phonedir_tab>tbody>tr>td:nth-child(2) {
-		border-left: 1px solid #0072bc;
-		border-right: 1px solid #0072bc;
-		padding-left: 0.3em;
-		padding-right: 0.3em;
 	}
 }

@@ -114,6 +114,10 @@
 	margin-top: 0.5em;
 }
 
+.news2>h2 {
+	padding-right: 0.5em;
+}
+
 .news1>p, .news2>p {
 	padding-left: 1em;
 	padding-right: 1em;
@@ -129,7 +133,7 @@
 	text-align: center;
 	float: right;
 	margin-right: 10%;
-	margin-top: 0.3em;
+	margin-top: 0.7em;
 	border-radius: 4px;
 	background-color: #0B0B61;
 }
