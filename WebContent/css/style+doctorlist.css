@@ -1,48 +1,51 @@
-#findDoctor >a{
-  	background-color: #111;
+#findDoctor>a {
+	background-color: #111;
 }
 
-
-.listTitle{
+.listTitle {
 	text-align: center;
 	background-color: #E6F0FF;
 	height: 2em;
 }
 
-.listTitle > h2{
+.listTitle>h2 {
 	margin: 0;
 	padding-top: 0.3em;
 }
-.container{
+
+.container {
 	margin: 0 auto;
- 	width: 70%;
-  	margin-top: 3%;
-  	margin-bottom: 5%;
-  	padding-top: 3%;
-  	display: flex;
-  	justify-content: center;
+	width: 70%;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	padding-top: 3%;
+	display: flex;
+	justify-content: center;
 }
 
-#nameList, #deptList{
+#nameList, #deptList {
 	background-color: #BEDAF3;
 	padding: 0.5em;
 	padding-left: 1em;
 	padding-right: 1em;
 	margin-top: 3%;
-  	margin-bottom: 3%;
+	margin-bottom: 3%;
 }
 
-td{
+td {
 	padding: 0.3em;
 	text-align: justify;
 	border-bottom: 1px solid #0072bc;
-	border-left:1px solid #0072bc;
-	border-right:1px solid #0072bc;
+}
+
+td:nth-child(1) {
+	border-right: 1px solid #0072bc;
 }
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-   [class *="container"]{
-   width: 80%;
-   margin-bottom: 28%;}
+	/* For mobile phones: */
+	[class*="container"] {
+		width: 80%;
+		margin-bottom: 28%;
+	}
 }
