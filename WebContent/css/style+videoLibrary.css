@@ -1,9 +1,24 @@
+#contact>a {
+	background-color: #111;
+}
+
 * {
 	overflow: visible;
 }
 
 .container {
 	padding-bottom: 8%;
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	div.content>p {
+		padding-top: 5%;
+		font-size: 1em;
+	}
+	div.videoContainer video {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 700px) {
@@ -69,9 +84,8 @@
 .accordion label {
 	display: block;
 	background-color: #0072bc;
-	color: white;
+	color: #E6E6E6;
 	cursor: pointer;
-	color: white;
 }
 
 .accordion .content {
@@ -94,7 +108,7 @@
 
 .accordion ul li label:hover {
 	background-color: #084B8A;
-	color: white;
+	color: #E6E6E6;
 }
 
 .accordion ul li .content {
@@ -113,7 +127,7 @@
 	padding-bottom: 3%;
 	padding-left: 7%;
 	padding-right: 5%;
-	font-size: 14pt;
+	font-size: 0.82em;
 }
 
 .videoContainer {

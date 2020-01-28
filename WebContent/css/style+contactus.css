@@ -1,3 +1,7 @@
+#contact>a {
+	background-color: #111;
+}
+
 * {
 	overflow: visible;
 }
@@ -66,17 +70,29 @@
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 	display: block;
-	color: white;
+	color: #E6E6E6;
 	font-size: 1em;
 	font-weight: bold;
 	text-decoration: none;
-  background-color: #0B0B61;
-	color: white;
+	background-color: #0B0B61;
 	margin-right: 1em;
 	display: block;
 }
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="contactInfo"]{margin-bottom:28%;}
+	/* For mobile phones: */
+	[class*="contactInfo"] {
+		margin-bottom: 28%;
+	}
+	.contactContainer {
+		display: grid;
+	}
+	.contactContainer>div {
+		width: 100%;
+		padding-top: 3%;
+		display: block;
+	}
+	.linkButton {
+		height: 0%;
+	}
 }
