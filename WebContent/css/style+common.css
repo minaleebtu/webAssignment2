@@ -69,7 +69,7 @@ header h4 {
 
 .menubar li a {
 	background-color: #0B0B61;
-	color: white;
+	color: #E6E6E6;
 	display: block;
 	font-weight: normal;
 	margin: 0px;
@@ -83,7 +83,7 @@ header h4 {
 
 .menubar li a:hover, .menubar ul li:hover a {
 	background-color: #111;
-	color: #FFFFFF;
+	color: #E6E6E6;
 	text-decoration: none;
 }
 
