@@ -20,7 +20,7 @@
 	padding-top: 1%;
 }
 
-div.bread>p>a {
+div.bread p>a {
 	color: #0B0B61;
 	font-size: 1em;
 }
@@ -33,7 +33,7 @@ div.bread>p>a {
 
 .appointTitle h2 {
 	margin: 0;
-	padding-top: 0px;
+	padding-top: 0;
 }
 
 .appointInfo {
