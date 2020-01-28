@@ -16,9 +16,12 @@
 	font-size: 0.7em;
 	margin-top: 0px;
 	margin-bottom: -1%;
-	border-left-width: 0px;
 	padding-left: 1%;
 	padding-top: 1%;
+}
+
+.bread>p>a {
+	font-size: 1em;
 }
 
 .appointTitle {
