@@ -20,7 +20,8 @@
 	padding-top: 1%;
 }
 
-.bread>p>a {
+div.bread>p>a {
+	color: #0B0B61;
 	font-size: 1em;
 }
 
