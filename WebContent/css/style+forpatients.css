@@ -12,6 +12,17 @@
   align-items: center;
 }
 
+.bread > p {
+	color:#0B0B61;
+	background-color:#E6F0FF;
+	font-size: 0.7em;
+	margin-top: 0px;
+	margin-bottom: -1%;
+	border-left-width: 0px;
+	padding-left: 1%;
+	padding-top: 1%;
+}
+
 .patientsTitle{
 	text-align: center;
 	background-color: #E6F0FF;
@@ -19,7 +30,7 @@
 }
 .patientsTitle > h2{
 	margin: 0;
-	padding-top: 0.3em;
+	padding-top: 0px;
 }
 .button-container{
   width: 80%;
