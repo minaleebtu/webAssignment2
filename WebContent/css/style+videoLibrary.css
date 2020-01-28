@@ -84,9 +84,8 @@
 .accordion label {
 	display: block;
 	background-color: #0072bc;
-	color: white;
+	color: #E6E6E6;
 	cursor: pointer;
-	color: white;
 }
 
 .accordion .content {
@@ -109,7 +108,7 @@
 
 .accordion ul li label:hover {
 	background-color: #084B8A;
-	color: white;
+	color: #E6E6E6;
 }
 
 .accordion ul li .content {
