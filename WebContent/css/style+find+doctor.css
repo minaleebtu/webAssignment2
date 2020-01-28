@@ -11,12 +11,19 @@
 	border-left-width: 0px;
 	padding-left: 1%;
 	padding-top: 1%;
+	height: 2em;
+}
+
+.bread > p > a{
+	font-size: 1em;
+	color: #0B0B61;
 }
 
 .serviceTitle{
 	text-align: center;
 	background-color: #E6F0FF;
 	height: 2em;
+	margin-top: -1%;
 }
 .serviceTitle > h2{
 	margin: 0;
